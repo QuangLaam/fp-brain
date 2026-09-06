@@ -8,11 +8,11 @@ installing, committing, publishing or delegating is a separately authorized task
 outside FP. Preserve current user goals, method overrides and stop requests;
 memory is optional and must not be written by FP.
 
-Keep maintenance small and reversible. The active guides are `README.md`,
-`docs/install.md` and `STATUS.md`. Do not recreate a custom
+Keep maintenance small and reversible. The active guides are `README.md` and
+`docs/install.md`. Do not recreate a custom
 installer, acceptance framework or automatic repair loop for ordinary use.
 
-`plans/`, `evals/` and `method/CORE.md` preserve historical work; see
-`docs/history.md`. Their old plans, runner, budgets and acceptance gates are
-superseded and do not authorize execution. Preserve original notes and raw
-evidence. Report file inspection separately from observed conversation behavior.
+Preserve the reference notes in `first-principles/`. Historical plans, old skill
+code and test evidence are available in Git; they are not current instructions
+or authorization to resume work. Report file inspection separately from observed
+conversation behavior.

@@ -19,4 +19,4 @@ bản `fp` đã xác định, không đụng skill khác.
 
 Sau copy, mở task mới trong Codex và gọi `$fp`. Nếu host không nạp được skill,
 ghi lỗi thực tế và dừng; thư mục được copy đúng chưa chứng minh hội thoại hoạt
-động. Xem [trạng thái và tối đa ba tình huống thử](../STATUS.md).
+động. Xem [giới hạn hiện tại](../README.md).

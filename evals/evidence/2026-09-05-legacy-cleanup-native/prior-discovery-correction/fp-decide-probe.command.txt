@@ -1,3 +1,0 @@
-codex exec -C /Users/quanglaam/fp-brain --sandbox read-only -c 'approval_policy="never"' --ignore-user-config --ephemeral --enable skip_host_skill_discovery --disable plugins --disable memories -m gpt-5.4-mini --json '$fp-decide
-
-Kiểm tra đường dẫn skill bạn đang sử dụng. Chỉ đọc các tệp hướng dẫn cần thiết rồi báo chính xác đường dẫn đã nạp; không giải bài toán hành vi nào.'

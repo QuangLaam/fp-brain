@@ -21,5 +21,11 @@ Ba nguồn gốc:
 - [Ghi chú first-principles local](first-principles/): nguồn tham khảo được giữ nguyên; các claim chưa có căn cứ không tự trở thành sự thật.
 
 Nguồn chuẩn nằm ở [skills/fp](skills/fp/SKILL.md), với mọi reference trong cùng
-package. Xem [cách cài/cập nhật](docs/install.md), [trạng thái và ba tình huống thử](STATUS.md). Kế hoạch và bộ kiểm thử lớn trước đây đã
-được thay thế; [chỉ mục lịch sử](docs/history.md) giữ đường dẫn tới bằng chứng cũ.
+package. Xem [cách cài/cập nhật](docs/install.md).
+
+Bản hiện tại đã gọi được qua CLI. Trong ba lần thử ngắn, một phản hồi làm rõ
+còn thiếu câu hỏi cụ thể và có tiếng Anh thừa; chất lượng chưa được bảo đảm cho
+mọi tình huống. Picker Desktop và mức hữu ích trong công việc thật chưa được đánh giá.
+
+Plan và báo cáo kiểm thử cũ đã được dọn khỏi repo; có thể truy lại trong Git tại
+commit `76b4df2`.

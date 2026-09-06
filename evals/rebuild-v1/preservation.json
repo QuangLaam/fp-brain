@@ -1,8 +1,0 @@
-{
-  "original_head": "7c894c2",
-  "baseline_commit": "f8b6caa",
-  "backup": "/var/folders/f4/1x7nmn4x4rg76xlt1wsrt2tr0000gn/T/fp-rebuild-checkpoint-9smdqawq",
-  "manifest_sha256": "9b2c204fc432289f6110b761bbda0637a8fe18f5f1a7cc193ebfacb3ccd7387b",
-  "verified_files": 226,
-  "branch": "codex/fp-rebuild"
-}
