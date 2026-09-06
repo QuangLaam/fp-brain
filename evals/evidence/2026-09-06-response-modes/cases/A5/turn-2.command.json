@@ -1,0 +1,21 @@
+[
+  "codex",
+  "exec",
+  "resume",
+  "01a075b0-504b-7cf1-93ff-f864bdcac05d",
+  "-c",
+  "sandbox_mode=\"read-only\"",
+  "-c",
+  "approval_policy=\"never\"",
+  "--ignore-user-config",
+  "--enable",
+  "skip_host_skill_discovery",
+  "--disable",
+  "plugins",
+  "--disable",
+  "memories",
+  "-m",
+  "gpt-5.4-mini",
+  "--json",
+  "“Nhưng tôi vừa hỏi: họ nói nút gửi không hoạt động. Tôi chưa kiểm tra lại.”"
+]

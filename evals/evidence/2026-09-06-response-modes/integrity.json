@@ -1,0 +1,79 @@
+{
+  "A1": {
+    "completed_turns": 3,
+    "selected_skill": "/Users/quanglaam/fp-brain/.agents/skills/fp-ask/SKILL.md",
+    "injected_source_hash_match": true,
+    "all_turns_read_only_approval_never": true,
+    "all_exit_codes_zero": true,
+    "trace_sha256": "c343d03cc8e3358579a6e80e5eb6d09160b136a5b288f2fa813b0ed0bf329c08",
+    "completed_commands": [
+      "/bin/zsh -lc \"sed -n '1,260p' /Users/quanglaam/fp-brain/method/CORE.md\""
+    ]
+  },
+  "A3": {
+    "completed_turns": 4,
+    "selected_skill": "/Users/quanglaam/fp-brain/.agents/skills/fp-ask/SKILL.md",
+    "injected_source_hash_match": true,
+    "all_turns_read_only_approval_never": true,
+    "all_exit_codes_zero": true,
+    "trace_sha256": "5c22cab60e222c23da58110d979890d2f1047cdaf5d9fdebfda2637c35848f52",
+    "completed_commands": [
+      "/bin/zsh -lc \"sed -n '1,260p' /Users/quanglaam/fp-brain/method/CORE.md\""
+    ]
+  },
+  "B1": {
+    "completed_turns": 3,
+    "selected_skill": "/Users/quanglaam/fp-brain/.agents/skills/fp-brainstorm/SKILL.md",
+    "injected_source_hash_match": true,
+    "all_turns_read_only_approval_never": true,
+    "all_exit_codes_zero": true,
+    "trace_sha256": "87ebd031e4f8ff7b2a651f12da05478a316ffba18fce5f1dd1f64d4d44217626",
+    "completed_commands": [
+      "/bin/zsh -lc \"sed -n '1,260p' /Users/quanglaam/fp-brain/method/CORE.md && printf '\\\\n---SKILL---\\\\n' && sed -n '1,220p' /Users/quanglaam/fp-brain/.agents/skills/fp-brainstorm/SKILL.md\""
+    ]
+  },
+  "A2": {
+    "completed_turns": 3,
+    "selected_skill": "/Users/quanglaam/fp-brain/.agents/skills/fp-ask/SKILL.md",
+    "injected_source_hash_match": true,
+    "all_turns_read_only_approval_never": true,
+    "all_exit_codes_zero": true,
+    "trace_sha256": "d5cd2b652dbeb8ce7b71e9e53f7914b08500527a1615d8b66e84aa0393afe103",
+    "completed_commands": [
+      "/bin/zsh -lc \"sed -n '1,240p' method/CORE.md\""
+    ]
+  },
+  "A4": {
+    "completed_turns": 2,
+    "selected_skill": "/Users/quanglaam/fp-brain/.agents/skills/fp-ask/SKILL.md",
+    "injected_source_hash_match": true,
+    "all_turns_read_only_approval_never": true,
+    "all_exit_codes_zero": true,
+    "trace_sha256": "46f5e1e0095c01f4b6f2c937393f3604823b434861084518e721254665ccbb9d",
+    "completed_commands": [
+      "/bin/zsh -c \"sed -n '1,260p' method/CORE.md\""
+    ]
+  },
+  "A5": {
+    "completed_turns": 3,
+    "selected_skill": "/Users/quanglaam/fp-brain/.agents/skills/fp-ask/SKILL.md",
+    "injected_source_hash_match": true,
+    "all_turns_read_only_approval_never": true,
+    "all_exit_codes_zero": true,
+    "trace_sha256": "6a4425d7f490500a67ba11f50d055d8ad0e19aa60a80ffbcd2bfc917b6d79f55",
+    "completed_commands": [
+      "/bin/zsh -lc \"sed -n '1,260p' /Users/quanglaam/fp-brain/method/CORE.md\""
+    ]
+  },
+  "B2": {
+    "completed_turns": 1,
+    "selected_skill": "/Users/quanglaam/fp-brain/.agents/skills/fp-brainstorm/SKILL.md",
+    "injected_source_hash_match": true,
+    "all_turns_read_only_approval_never": true,
+    "all_exit_codes_zero": true,
+    "trace_sha256": "417e3b523c7a2e474accea29e4c5c5804854d515e98a002d39eff4442c7e21a3",
+    "completed_commands": [
+      "/bin/zsh -lc \"sed -n '1,240p' /Users/quanglaam/fp-brain/method/CORE.md\""
+    ]
+  }
+}

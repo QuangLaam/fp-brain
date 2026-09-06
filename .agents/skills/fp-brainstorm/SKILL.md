@@ -17,14 +17,21 @@ user has a direction worth investigating or asks to stop.
 
 ## Workflow
 
-1. Check whether the desired outcome, affected user, and relevant constraints
-   are clear enough to generate useful directions. If an answer is needed first,
-   ask the single highest-value question instead of listing generic ideas. When
-   the missing answer or an ambiguous term could materially change the
-   directions, make the response clarification-only: ask that question and stop.
-   This includes uncertainty about which user event is being discussed or which
-   system states are available. Do not require an interview when the supplied
-   facts are already sufficient.
+1. Choose between clarification and generation before drafting the response.
+   These are mutually exclusive modes for this turn:
+   - **Clarify:** if a missing fact or ambiguous term could change the proposed
+     mechanisms, output only the single highest-value question and stop. No
+     directions, examples of solutions, recommendation, or offer follows it.
+   - **Generate:** if the supplied facts support useful directions, continue
+     below without a mandatory interview.
+   For status or feedback problems, establish which user action/event needs
+   confirmation and which states the system can actually observe. A phrase
+   describing an outcome does not establish either fact. Do not silently choose
+   one meaning of an ambiguous event, invent a lifecycle or integrations around
+   it, and ask what it means at the end.
+   Assumption labels are for uncertainties within a grounded direction; they
+   do not substitute for clarifying the event the whole direction is about or
+   a missing capability that would materially change that direction.
 2. Extract the observations, available system states, user needs, and practical
    constraints already established. Treat app-specific facts as scoped facts,
    not universal principles.

@@ -1,0 +1,21 @@
+[
+  "codex",
+  "exec",
+  "resume",
+  "01a075b3-1fde-7820-b546-a7e90aef799c",
+  "-c",
+  "sandbox_mode=\"read-only\"",
+  "-c",
+  "approval_policy=\"never\"",
+  "--ignore-user-config",
+  "--enable",
+  "skip_host_skill_discovery",
+  "--disable",
+  "plugins",
+  "--disable",
+  "memories",
+  "-m",
+  "gpt-5.4-mini",
+  "--json",
+  "“Tôi muốn cùng nó xác định đúng vấn đề trước.”"
+]

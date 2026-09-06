@@ -1,0 +1,23 @@
+[
+  "codex",
+  "exec",
+  "-C",
+  "/Users/quanglaam/fp-brain",
+  "--sandbox",
+  "read-only",
+  "-c",
+  "sandbox_mode=\"read-only\"",
+  "-c",
+  "approval_policy=\"never\"",
+  "--ignore-user-config",
+  "--enable",
+  "skip_host_skill_discovery",
+  "--disable",
+  "plugins",
+  "--disable",
+  "memories",
+  "-m",
+  "gpt-5.4-mini",
+  "--json",
+  "$fp-ask\n\n“Tôi làm việc với AI thấy rất mệt. Tôi không biết phải hỏi gì.”"
+]

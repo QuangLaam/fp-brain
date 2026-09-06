@@ -2,26 +2,29 @@
 
 ## Current status — 2026-09-06
 
-This table summarizes the latest applicable evidence, not a new native run.
-The dated records below are preserved as history; their FAIL/NOT_RUN entries
-describe those earlier attempts and do not override this table.
+This table distinguishes current file inspection from dated native evidence.
+Historical records below remain unchanged. PASS applies only to the named
+case, source version, and host/model; it is not full product acceptance.
 
 | Check | Current status | Latest evidence / limit |
 |---|---|---|
 | Runtime contents and dependencies | PASS (file inspection, 2026-09-06) | Exactly four repo-local skills; all core links resolve inside this repo; no legacy runtime dependency. |
 | Global legacy paths | ABSENT (file inspection, 2026-09-06) | Seven `fp-*` names and `_fp-brain-runtime` are absent at the exact paths checked under `~/.agents/skills`, `~/.codex/skills`, and `~/.claude/skills`. This is not a scan of every host cache. |
-| Repo-local native discovery | PASS 4/4 (2026-09-05) | [Post-cleanup run](evidence/2026-09-05-legacy-cleanup-native/native-run-report.md); no new discovery run on 2026-09-06. |
-| Ask A1–A5 | 3 PASS, 2 FAIL (2026-09-05) | [Bounded rerun](evidence/2026-09-05-question-then-stop-rerun/native-rerun-report.md): A1 concludes before clarification; A3 supplies the first causal hypotheses. |
-| Brainstorm B1–B2 | 1 PASS, 1 FAIL (2026-09-05) | Same bounded rerun: B1 proposes directions before resolving the user event and available backend states. |
-| Decide D1–D3 | 3 PASS (2026-09-05) | Same bounded rerun, including the corrected D2 priority boundary. |
-| Learn L1–L2 | 2 PASS (2026-09-05) | Post-cleanup run; Learn was unchanged and excluded from the later rerun. |
-| Ordinary prompt / implicit invocation | PASS in one native case (2026-09-05) | Post-cleanup run; metadata still sets explicit-only invocation for all four skills. |
-| Evidence integrity | PASS (2026-09-06) | All 255 entries across the two artifact-hash manifests match. Ask/Brainstorm/Decide/core match the bounded-rerun source hashes. Hash integrity is not behavioral acceptance. |
+| Repo-local native discovery | Observed for all four, on dated runs | Ask/Brainstorm: 2026-09-06 repair traces. Decide/Learn: [2026-09-05 post-cleanup run](evidence/2026-09-05-legacy-cleanup-native/native-run-report.md). |
+| Ask A1 | FAIL / OPEN (2026-09-06, final source) | [Supervised rerun](evidence/2026-09-06-ask-grounding-rerun/report.md): U2 still concludes before desired help is clarified. |
+| Ask A3 | PASS (2026-09-06, final source) | Same supervised rerun: user forms the first hypothesis; the agent explicitly labels it and asks for verification. |
+| Ask A2/A4/A5 | PASS on first repair candidate only (2026-09-06) | [First repair run](evidence/2026-09-06-response-modes/report.md). Not rerun after the narrow conclusion/hypothesis wording correction. |
+| Brainstorm B1/B2 | PASS (2026-09-06, current source) | First repair run: clarify before generation; preserve three distinct grounded directions when input is sufficient. |
+| Decide D1–D3 | 3 PASS (2026-09-05, unchanged source) | [Earlier bounded rerun](evidence/2026-09-05-question-then-stop-rerun/native-rerun-report.md). Not rerun in this repair. |
+| Learn L1–L2 | 2 PASS (2026-09-05, unchanged source) | Post-cleanup run. Not rerun in this repair. |
+| Ordinary prompt / implicit invocation | PASS in one native case (2026-09-05) | Post-cleanup run; all four metadata files still set explicit-only invocation. No new implicit-invocation test. |
+| Evidence integrity | PASS (2026-09-06) | All 255 historical manifest entries still match; new runs include source hashes, raw sessions, integrity summaries, and artifact manifests. Hash integrity is not behavioral acceptance. |
 | Codex Desktop picker / real-use Ask trial | NOT_RUN | No fresh picker evidence or direct user trial feedback. |
 
-Across the latest applicable cases, there are **9 PASS and 3 FAIL**. This combines
-ten cases from the bounded rerun with two unchanged Learn cases from the prior
-run; it is not a single twelve-case run or full product acceptance.
+**Target repair status: A3 and B1 accepted in the observed native runs; A1
+remains open.** The first repair run was 5 PASS / 2 FAIL; the single supervised
+A1/A3 rerun was 1 PASS / 1 FAIL. These are separate runs on different Ask
+revisions, not one fully passing final-source suite.
 
 ## Historical records — initial build and subsequent runs
 
@@ -364,3 +367,23 @@ Full report and trace hashes:
 Total: **7 PASS, 3 FAIL, 0 NOT_RUN, 0 AMBIGUOUS_FIXTURE**. Exactly one run per
 case; no retry. The three failures are reported as observed model non-compliance
 with explicit updated instructions. No follow-up fix or rerun was performed.
+
+
+## 2026-09-06 repository baseline and separate behavior repair
+
+- Baseline commit `aa99d99` preserves the four skills and all historical
+  evidence, adds the current-status table and `.gitignore`, and excludes the
+  removed Finder `.DS_Store` metadata.
+- The separate repair changes only Ask and Brainstorm runtime instructions.
+  Core, Decide, Learn, metadata, provenance, and the acceptance rubric remain
+  unchanged. Ask chooses one response mode per turn; Brainstorm resolves
+  material event/capability ambiguity before generating directions.
+- [First repair run](evidence/2026-09-06-response-modes/report.md): A1/A3/B1 plus
+  A2/A4/A5/B2 regression fixtures; 5 PASS / 2 FAIL across nineteen turns.
+- Full review caught unsupported A1 conclusions and missing explicit A3
+  hypothesis labeling. A narrow Ask correction received one
+  [supervised A1/A3 rerun](evidence/2026-09-06-ask-grounding-rerun/report.md):
+  1 PASS / 1 FAIL across seven turns. A3 passes; A1's early conclusion persists.
+- No historical fixture/result was rewritten, no retry replaced a failed
+  trace, and no full acceptance claim is made. Final Ask regression coverage
+  remains limited as shown in the current-status table.
