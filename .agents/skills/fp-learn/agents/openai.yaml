@@ -1,0 +1,6 @@
+interface:
+  display_name: "FP Learn"
+  short_description: "Understand and apply a concept blocking your work"
+  default_prompt: "Use $fp-learn to help me understand and apply this concept."
+policy:
+  allow_implicit_invocation: false

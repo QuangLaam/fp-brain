@@ -1,0 +1,6 @@
+interface:
+  display_name: "FP Brainstorm"
+  short_description: "Build distinct directions from known principles"
+  default_prompt: "Use $fp-brainstorm to develop solution directions from what we know."
+policy:
+  allow_implicit_invocation: false

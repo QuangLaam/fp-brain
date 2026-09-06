@@ -1,0 +1,17 @@
+```text
+codex exec -C /Users/quanglaam/fp-brain \
+  --sandbox read-only \
+  -c 'sandbox_mode="read-only"' \
+  -c 'approval_policy="never"' \
+  --ignore-user-config \
+  --enable skip_host_skill_discovery \
+  --disable plugins \
+  --disable memories \
+  -m gpt-5.4-mini \
+  --json \
+  'Giải thích ngắn gọn loading state là gì trong UI.'
+```
+
+No FP skill name or invocation token is present. The observable answer is not
+used to infer FP loading; the native rollout is inspected for an actual
+`skills.selected_skill_instructions` event.

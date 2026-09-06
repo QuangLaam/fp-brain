@@ -1,0 +1,34 @@
+2026-09-05T15:34:02.353513Z  WARN codex_agent_roles::loader: Ignoring malformed agent role definition: agent role file at /Users/quanglaam/.codex/agents/attraction_specialist.toml must define a non-empty `name`
+2026-09-05T15:34:02.353644Z  WARN codex_agent_roles::loader: Ignoring malformed agent role definition: agent role file at /Users/quanglaam/.codex/agents/brainstormer.toml must define a non-empty `name`
+2026-09-05T15:34:02.353845Z  WARN codex_agent_roles::loader: Ignoring malformed agent role definition: agent role file at /Users/quanglaam/.codex/agents/campaign_debugger.toml must define a non-empty `name`
+2026-09-05T15:34:02.353919Z  WARN codex_agent_roles::loader: Ignoring malformed agent role definition: agent role file at /Users/quanglaam/.codex/agents/campaign_manager.toml must define a non-empty `name`
+2026-09-05T15:34:02.354065Z  WARN codex_agent_roles::loader: Ignoring malformed agent role definition: agent role file at /Users/quanglaam/.codex/agents/code_reviewer.toml must define a non-empty `name`
+2026-09-05T15:34:02.354130Z  WARN codex_agent_roles::loader: Ignoring malformed agent role definition: agent role file at /Users/quanglaam/.codex/agents/code_simplifier.toml must define a non-empty `name`
+2026-09-05T15:34:02.354250Z  WARN codex_agent_roles::loader: Ignoring malformed agent role definition: agent role file at /Users/quanglaam/.codex/agents/community_manager.toml must define a non-empty `name`
+2026-09-05T15:34:02.354444Z  WARN codex_agent_roles::loader: Ignoring malformed agent role definition: agent role file at /Users/quanglaam/.codex/agents/content_creator.toml must define a non-empty `name`
+2026-09-05T15:34:02.354511Z  WARN codex_agent_roles::loader: Ignoring malformed agent role definition: agent role file at /Users/quanglaam/.codex/agents/content_reviewer.toml must define a non-empty `name`
+2026-09-05T15:34:02.354631Z  WARN codex_agent_roles::loader: Ignoring malformed agent role definition: agent role file at /Users/quanglaam/.codex/agents/continuity_specialist.toml must define a non-empty `name`
+2026-09-05T15:34:02.354698Z  WARN codex_agent_roles::loader: Ignoring malformed agent role definition: agent role file at /Users/quanglaam/.codex/agents/copywriter.toml must define a non-empty `name`
+2026-09-05T15:34:02.354825Z  WARN codex_agent_roles::loader: Ignoring malformed agent role definition: agent role file at /Users/quanglaam/.codex/agents/database_admin.toml must define a non-empty `name`
+2026-09-05T15:34:02.354902Z  WARN codex_agent_roles::loader: Ignoring malformed agent role definition: agent role file at /Users/quanglaam/.codex/agents/debugger.toml must define a non-empty `name`
+2026-09-05T15:34:02.355044Z  WARN codex_agent_roles::loader: Ignoring malformed agent role definition: agent role file at /Users/quanglaam/.codex/agents/docs_manager.toml must define a non-empty `name`
+2026-09-05T15:34:02.355170Z  WARN codex_agent_roles::loader: Ignoring malformed agent role definition: agent role file at /Users/quanglaam/.codex/agents/email_wizard.toml must define a non-empty `name`
+2026-09-05T15:34:02.355346Z  WARN codex_agent_roles::loader: Ignoring malformed agent role definition: agent role file at /Users/quanglaam/.codex/agents/fullstack_developer.toml must define a non-empty `name`
+2026-09-05T15:34:02.355465Z  WARN codex_agent_roles::loader: Ignoring malformed agent role definition: agent role file at /Users/quanglaam/.codex/agents/funnel_architect.toml must define a non-empty `name`
+2026-09-05T15:34:02.355599Z  WARN codex_agent_roles::loader: Ignoring malformed agent role definition: agent role file at /Users/quanglaam/.codex/agents/git_manager.toml must define a non-empty `name`
+2026-09-05T15:34:02.355733Z  WARN codex_agent_roles::loader: Ignoring malformed agent role definition: agent role file at /Users/quanglaam/.codex/agents/journal_writer.toml must define a non-empty `name`
+2026-09-05T15:34:02.355905Z  WARN codex_agent_roles::loader: Ignoring malformed agent role definition: agent role file at /Users/quanglaam/.codex/agents/lead_qualifier.toml must define a non-empty `name`
+2026-09-05T15:34:02.355964Z  WARN codex_agent_roles::loader: Ignoring malformed agent role definition: agent role file at /Users/quanglaam/.codex/agents/mcp_manager.toml must define a non-empty `name`
+2026-09-05T15:34:02.356047Z  WARN codex_agent_roles::loader: Ignoring malformed agent role definition: agent role file at /Users/quanglaam/.codex/agents/planner.toml must define a non-empty `name`
+2026-09-05T15:34:02.356155Z  WARN codex_agent_roles::loader: Ignoring malformed agent role definition: agent role file at /Users/quanglaam/.codex/agents/project_manager.toml must define a non-empty `name`
+2026-09-05T15:34:02.356215Z  WARN codex_agent_roles::loader: Ignoring malformed agent role definition: agent role file at /Users/quanglaam/.codex/agents/researcher.toml must define a non-empty `name`
+2026-09-05T15:34:02.356332Z  WARN codex_agent_roles::loader: Ignoring malformed agent role definition: agent role file at /Users/quanglaam/.codex/agents/sale_enabler.toml must define a non-empty `name`
+2026-09-05T15:34:02.356452Z  WARN codex_agent_roles::loader: Ignoring malformed agent role definition: agent role file at /Users/quanglaam/.codex/agents/scout.toml must define a non-empty `name`
+2026-09-05T15:34:02.356521Z  WARN codex_agent_roles::loader: Ignoring malformed agent role definition: agent role file at /Users/quanglaam/.codex/agents/scout_external.toml must define a non-empty `name`
+2026-09-05T15:34:02.356640Z  WARN codex_agent_roles::loader: Ignoring malformed agent role definition: agent role file at /Users/quanglaam/.codex/agents/seo_specialist.toml must define a non-empty `name`
+2026-09-05T15:34:02.356760Z  WARN codex_agent_roles::loader: Ignoring malformed agent role definition: agent role file at /Users/quanglaam/.codex/agents/social_media_manager.toml must define a non-empty `name`
+2026-09-05T15:34:02.356831Z  WARN codex_agent_roles::loader: Ignoring malformed agent role definition: agent role file at /Users/quanglaam/.codex/agents/tester.toml must define a non-empty `name`
+2026-09-05T15:34:02.356991Z  WARN codex_agent_roles::loader: Ignoring malformed agent role definition: agent role file at /Users/quanglaam/.codex/agents/ui_ux_designer.toml must define a non-empty `name`
+2026-09-05T15:34:02.357103Z  WARN codex_agent_roles::loader: Ignoring malformed agent role definition: agent role file at /Users/quanglaam/.codex/agents/upsell_maximizer.toml must define a non-empty `name`
+2026-09-05T15:34:07.351283Z ERROR codex_models_manager::manager: failed to refresh available models: timeout waiting for child process to exit
+2026-09-05T15:34:12.463992Z  WARN codex_analytics::client: failed to send events request: error sending request for url (https://chatgpt.com/backend-api/codex/analytics-events/events)

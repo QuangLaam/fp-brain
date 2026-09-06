@@ -1,0 +1,68 @@
+Reading additional input from stdin...
+2026-09-05T14:54:03.530487Z  WARN codex_agent_roles::loader: Ignoring malformed agent role definition: agent role file at /Users/quanglaam/.codex/agents/attraction_specialist.toml must define a non-empty `name`
+2026-09-05T14:54:03.530583Z  WARN codex_agent_roles::loader: Ignoring malformed agent role definition: agent role file at /Users/quanglaam/.codex/agents/brainstormer.toml must define a non-empty `name`
+2026-09-05T14:54:03.530777Z  WARN codex_agent_roles::loader: Ignoring malformed agent role definition: agent role file at /Users/quanglaam/.codex/agents/campaign_debugger.toml must define a non-empty `name`
+2026-09-05T14:54:03.530839Z  WARN codex_agent_roles::loader: Ignoring malformed agent role definition: agent role file at /Users/quanglaam/.codex/agents/campaign_manager.toml must define a non-empty `name`
+2026-09-05T14:54:03.530975Z  WARN codex_agent_roles::loader: Ignoring malformed agent role definition: agent role file at /Users/quanglaam/.codex/agents/code_reviewer.toml must define a non-empty `name`
+2026-09-05T14:54:03.531032Z  WARN codex_agent_roles::loader: Ignoring malformed agent role definition: agent role file at /Users/quanglaam/.codex/agents/code_simplifier.toml must define a non-empty `name`
+2026-09-05T14:54:03.531164Z  WARN codex_agent_roles::loader: Ignoring malformed agent role definition: agent role file at /Users/quanglaam/.codex/agents/community_manager.toml must define a non-empty `name`
+2026-09-05T14:54:03.531367Z  WARN codex_agent_roles::loader: Ignoring malformed agent role definition: agent role file at /Users/quanglaam/.codex/agents/content_creator.toml must define a non-empty `name`
+2026-09-05T14:54:03.531705Z  WARN codex_agent_roles::loader: Ignoring malformed agent role definition: agent role file at /Users/quanglaam/.codex/agents/content_reviewer.toml must define a non-empty `name`
+2026-09-05T14:54:03.531832Z  WARN codex_agent_roles::loader: Ignoring malformed agent role definition: agent role file at /Users/quanglaam/.codex/agents/continuity_specialist.toml must define a non-empty `name`
+2026-09-05T14:54:03.531910Z  WARN codex_agent_roles::loader: Ignoring malformed agent role definition: agent role file at /Users/quanglaam/.codex/agents/copywriter.toml must define a non-empty `name`
+2026-09-05T14:54:03.532041Z  WARN codex_agent_roles::loader: Ignoring malformed agent role definition: agent role file at /Users/quanglaam/.codex/agents/database_admin.toml must define a non-empty `name`
+2026-09-05T14:54:03.532117Z  WARN codex_agent_roles::loader: Ignoring malformed agent role definition: agent role file at /Users/quanglaam/.codex/agents/debugger.toml must define a non-empty `name`
+2026-09-05T14:54:03.532251Z  WARN codex_agent_roles::loader: Ignoring malformed agent role definition: agent role file at /Users/quanglaam/.codex/agents/docs_manager.toml must define a non-empty `name`
+2026-09-05T14:54:03.532367Z  WARN codex_agent_roles::loader: Ignoring malformed agent role definition: agent role file at /Users/quanglaam/.codex/agents/email_wizard.toml must define a non-empty `name`
+2026-09-05T14:54:03.532527Z  WARN codex_agent_roles::loader: Ignoring malformed agent role definition: agent role file at /Users/quanglaam/.codex/agents/fullstack_developer.toml must define a non-empty `name`
+2026-09-05T14:54:03.532637Z  WARN codex_agent_roles::loader: Ignoring malformed agent role definition: agent role file at /Users/quanglaam/.codex/agents/funnel_architect.toml must define a non-empty `name`
+2026-09-05T14:54:03.532757Z  WARN codex_agent_roles::loader: Ignoring malformed agent role definition: agent role file at /Users/quanglaam/.codex/agents/git_manager.toml must define a non-empty `name`
+2026-09-05T14:54:03.532881Z  WARN codex_agent_roles::loader: Ignoring malformed agent role definition: agent role file at /Users/quanglaam/.codex/agents/journal_writer.toml must define a non-empty `name`
+2026-09-05T14:54:03.533046Z  WARN codex_agent_roles::loader: Ignoring malformed agent role definition: agent role file at /Users/quanglaam/.codex/agents/lead_qualifier.toml must define a non-empty `name`
+2026-09-05T14:54:03.533105Z  WARN codex_agent_roles::loader: Ignoring malformed agent role definition: agent role file at /Users/quanglaam/.codex/agents/mcp_manager.toml must define a non-empty `name`
+2026-09-05T14:54:03.533173Z  WARN codex_agent_roles::loader: Ignoring malformed agent role definition: agent role file at /Users/quanglaam/.codex/agents/planner.toml must define a non-empty `name`
+2026-09-05T14:54:03.533272Z  WARN codex_agent_roles::loader: Ignoring malformed agent role definition: agent role file at /Users/quanglaam/.codex/agents/project_manager.toml must define a non-empty `name`
+2026-09-05T14:54:03.533327Z  WARN codex_agent_roles::loader: Ignoring malformed agent role definition: agent role file at /Users/quanglaam/.codex/agents/researcher.toml must define a non-empty `name`
+2026-09-05T14:54:03.533429Z  WARN codex_agent_roles::loader: Ignoring malformed agent role definition: agent role file at /Users/quanglaam/.codex/agents/sale_enabler.toml must define a non-empty `name`
+2026-09-05T14:54:03.533536Z  WARN codex_agent_roles::loader: Ignoring malformed agent role definition: agent role file at /Users/quanglaam/.codex/agents/scout.toml must define a non-empty `name`
+2026-09-05T14:54:03.533600Z  WARN codex_agent_roles::loader: Ignoring malformed agent role definition: agent role file at /Users/quanglaam/.codex/agents/scout_external.toml must define a non-empty `name`
+2026-09-05T14:54:03.533760Z  WARN codex_agent_roles::loader: Ignoring malformed agent role definition: agent role file at /Users/quanglaam/.codex/agents/seo_specialist.toml must define a non-empty `name`
+2026-09-05T14:54:03.533863Z  WARN codex_agent_roles::loader: Ignoring malformed agent role definition: agent role file at /Users/quanglaam/.codex/agents/social_media_manager.toml must define a non-empty `name`
+2026-09-05T14:54:03.533929Z  WARN codex_agent_roles::loader: Ignoring malformed agent role definition: agent role file at /Users/quanglaam/.codex/agents/tester.toml must define a non-empty `name`
+2026-09-05T14:54:03.534069Z  WARN codex_agent_roles::loader: Ignoring malformed agent role definition: agent role file at /Users/quanglaam/.codex/agents/ui_ux_designer.toml must define a non-empty `name`
+2026-09-05T14:54:03.534165Z  WARN codex_agent_roles::loader: Ignoring malformed agent role definition: agent role file at /Users/quanglaam/.codex/agents/upsell_maximizer.toml must define a non-empty `name`
+2026-09-05T14:54:03.540072Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back
+2026-09-05T14:54:03.541875Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back
+2026-09-05T14:54:03.543368Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back
+2026-09-05T14:54:03.544622Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back
+2026-09-05T14:54:03.545971Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back
+2026-09-05T14:54:03.547325Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back
+2026-09-05T14:54:03.549664Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back
+2026-09-05T14:54:03.550895Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back
+2026-09-05T14:54:03.552145Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back
+2026-09-05T14:54:03.553637Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back
+2026-09-05T14:54:03.554929Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back
+2026-09-05T14:54:03.556415Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back
+2026-09-05T14:54:03.557780Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back
+2026-09-05T14:54:03.559133Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back
+2026-09-05T14:54:03.560600Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back
+2026-09-05T14:54:03.561946Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back
+2026-09-05T14:54:03.563246Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back
+2026-09-05T14:54:03.565436Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back
+2026-09-05T14:54:03.567395Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back
+2026-09-05T14:54:03.568858Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back
+2026-09-05T14:54:03.570193Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back
+2026-09-05T14:54:03.571455Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back
+2026-09-05T14:54:03.572693Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back
+2026-09-05T14:54:03.573945Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back
+2026-09-05T14:54:03.575452Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back
+2026-09-05T14:54:03.576709Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back
+2026-09-05T14:54:03.577933Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back
+2026-09-05T14:54:03.579184Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back
+2026-09-05T14:54:03.580485Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back
+2026-09-05T14:54:03.581744Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back
+2026-09-05T14:54:03.583168Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back
+2026-09-05T14:54:03.584607Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back
+2026-09-05T14:54:03.585996Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back
+2026-09-05T14:54:03.587603Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back
+2026-09-05T14:54:08.533206Z ERROR codex_models_manager::manager: failed to refresh available models: timeout waiting for child process to exit

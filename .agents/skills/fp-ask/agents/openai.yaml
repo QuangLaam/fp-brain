@@ -1,0 +1,6 @@
+interface:
+  display_name: "FP Ask"
+  short_description: "Clarify a problem one useful question at a time"
+  default_prompt: "Use $fp-ask to help me clarify what I am actually stuck on."
+policy:
+  allow_implicit_invocation: false
