@@ -1,0 +1,18 @@
+{
+  "at": "2026-09-06T16:12:17.054861+00:00",
+  "source": "/Users/quanglaam/fp-brain/skills/fp",
+  "target": "/Users/quanglaam/.agents/skills/fp",
+  "previous_target": "absent",
+  "files": {
+    "SKILL.md": "273a642e020a4fdb71f672e7167be212ad6c4f1d6b150adaf77b4f11ab0cd9ea",
+    "references/learning-context.md": "6ef592d10141906266c3fbf36f3683e0906dbf929bfefbbab6b5a44934185434",
+    "references/methods.md": "ebcf311a2d3627126e58a79ef4ca1cbe12090a51dbf85c5794532cb1dab5f8f0",
+    "references/core.md": "8c5d17e059cffde6c34b3f02e3ea23149dd37483d1ba44990792fd6efdc4c8e5",
+    "agents/openai.yaml": "2aedd8dd136797c506a25acd111414788b4a09db42206a67d3a9c1f47eea7941"
+  },
+  "removed_finder_metadata": [
+    ".DS_Store"
+  ],
+  "method": "copytree; verified same five files",
+  "scope": "user-authorized simplified FP use; not product acceptance"
+}

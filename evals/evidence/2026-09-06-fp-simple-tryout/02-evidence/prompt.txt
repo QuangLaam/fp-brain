@@ -1,0 +1,3 @@
+$fp
+
+Dùng 5 Whys tìm nguyên nhân vì sao màn hình thanh toán chậm. Chỉ có ba khách báo chậm; chưa có số đo, log hoặc tái hiện lỗi. Tôi chưa có thêm dữ kiện. Hãy giúp tôi xác định bước tiếp theo.

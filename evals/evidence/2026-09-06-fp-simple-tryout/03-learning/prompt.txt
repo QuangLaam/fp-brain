@@ -1,0 +1,3 @@
+$fp
+
+Tôi là UX designer. Giải thích ngắn và trực tiếp vì sao nút có trạng thái loading không có nghĩa server đã nhận yêu cầu. Đừng phỏng vấn tôi.

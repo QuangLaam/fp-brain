@@ -1,0 +1,27 @@
+{
+  "at": "2026-09-06T16:12:58.100204+00:00",
+  "argv": [
+    "/Applications/ChatGPT.app/Contents/Resources/codex",
+    "exec",
+    "--ignore-user-config",
+    "--skip-git-repo-check",
+    "--disable",
+    "plugins",
+    "--disable",
+    "memories",
+    "-m",
+    "gpt-6-astra",
+    "-c",
+    "model_reasoning_effort=\"high\"",
+    "-c",
+    "sandbox_mode=\"read-only\"",
+    "-c",
+    "approval_policy=\"never\"",
+    "-c",
+    "web_search=\"disabled\"",
+    "--json",
+    "-"
+  ],
+  "cwd": "/var/folders/f4/1x7nmn4x4rg76xlt1wsrt2tr0000gn/T/fp-tryout-v1_g4hbf",
+  "scope": "one small real invocation; no retry"
+}
