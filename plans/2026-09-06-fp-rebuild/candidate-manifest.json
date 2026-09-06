@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0-candidate.1",
+  "files": {
+    "SKILL.md": "273a642e020a4fdb71f672e7167be212ad6c4f1d6b150adaf77b4f11ab0cd9ea",
+    "references/learning-context.md": "6ef592d10141906266c3fbf36f3683e0906dbf929bfefbbab6b5a44934185434",
+    "references/methods.md": "ebcf311a2d3627126e58a79ef4ca1cbe12090a51dbf85c5794532cb1dab5f8f0",
+    "references/core.md": "8c5d17e059cffde6c34b3f02e3ea23149dd37483d1ba44990792fd6efdc4c8e5",
+    "agents/openai.yaml": "2aedd8dd136797c506a25acd111414788b4a09db42206a67d3a9c1f47eea7941"
+  },
+  "package_hash": "3201cfb458bb7b51d81c5913965f8f1a729121f7fba0dc3d25026402397e6aa2",
+  "gate": "PACKAGE_VALIDATED",
+  "native_status": "NOT_RUN",
+  "fixture_freeze_sha256": "dba2c0e32f70ecc48238cbea2673a6f4ee596c9d001fbb0d286c798356a96284",
+  "management_files": {
+    "scripts/manage-fp.py": "9d020fccc41eabfa279c8100bff80218077e2c416ac8f66182263ef570037410",
+    "tests/test_fp_package.py": "15c60dbe7235c7120bc3a1d2af3fdc337f65a6a534a9d62153b31ada7d135682",
+    "docs/install.md": "5ab0fb762c176a0318d331246eb494413e62506eb8b46ae2cbdc41f89ed11d70"
+  },
+  "tests": {
+    "command": "python3 -B -m unittest discover -s tests -p test_fp_package.py -v",
+    "passed": 23,
+    "native_sessions": 0
+  },
+  "independent_review": "P1 late-edit loss fixed and focused upgrade/uninstall probes verified by independent reviewer; remaining direct-source Finder metadata removed and actual source retested."
+}

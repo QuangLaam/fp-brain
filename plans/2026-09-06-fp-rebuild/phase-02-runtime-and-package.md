@@ -6,7 +6,7 @@
 
 ## Overview
 
-Trạng thái: pending; phụ thuộc `CONTRACT_READY` và quyền rebuild. Tạo candidate tự chứa cùng công cụ bảo trì nhỏ, kiểm tra trong staging. Không cài vào user-scope thật ở phase này.
+Trạng thái: PACKAGE_VALIDATED; 23 package/lifecycle tests PASS, independent review P1 đã sửa và được kiểm tra lại. `CONTRACT_READY` tại `1f0dd76`. Tạo candidate tự chứa cùng công cụ bảo trì nhỏ, kiểm tra trong staging. Không cài vào user-scope thật ở phase này.
 
 ## Key Insights
 
@@ -64,12 +64,12 @@ Script bảo trì cung cấp validate, dry-run, install, uninstall, rollback v�
 
 ## Todo list
 
-- [ ] Candidate một entry tự chứa và explicit-only.
-- [ ] Quy tắc nguồn/hypothesis/learning khớp contract.
-- [ ] Installer nhỏ có manifest và chống drift/conflict.
-- [ ] Staging install/uninstall/rollback và package độc lập đạt.
-- [ ] Candidate được chốt version/hash.
-- [ ] Hướng dẫn và diff migration sẵn review.
+- [x] Candidate một entry tự chứa và explicit-only.
+- [x] Quy tắc nguồn/hypothesis/learning khớp contract.
+- [x] Installer nhỏ có manifest và chống drift/conflict.
+- [x] Staging install/uninstall/rollback và package độc lập đạt.
+- [x] Candidate được chốt version/hash tại `candidate-manifest.json`.
+- [x] Hướng dẫn và diff migration sẵn review.
 
 ## Success Criteria
 

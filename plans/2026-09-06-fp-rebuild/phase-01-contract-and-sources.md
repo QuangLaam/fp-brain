@@ -6,7 +6,7 @@
 
 ## Overview
 
-Trạng thái: pending. Mục tiêu là khóa yêu cầu và cách kiểm chứng trước khi thay runtime. Lượt lập plan không chạy bước triển khai nào. Effort: tbd sau kiểm tra baseline.
+Trạng thái: CONTRACT_READY (freeze commit `1f0dd76`; xem `evals/rebuild-v1/`). Mục tiêu là khóa yêu cầu và cách kiểm chứng trước khi thay runtime. Lượt lập plan không chạy bước triển khai nào. Effort: tbd sau kiểm tra baseline.
 
 ## Key Insights
 
@@ -50,12 +50,12 @@ Thứ tự nguồn: contract user; Untools cho phương pháp; mẫu phỏng v�
 
 ## Todo list
 
-- [ ] Quyền thực thi và trạng thái repo được xác nhận.
-- [ ] Checkpoint/baseline bảo toàn dirty và untracked cần giữ.
-- [ ] Contract mới và khác biệt rubric có version.
-- [ ] Source register có quyết định tiếp nhận và ca tương ứng.
-- [ ] Native budget/stop conditions được khóa.
-- [ ] Review cổng Phase 01.
+- [x] Quyền thực thi và trạng thái repo được xác nhận.
+- [x] Checkpoint/baseline bảo toàn dirty và untracked cần giữ.
+- [x] Contract mới và khác biệt rubric có version.
+- [x] Source register có quyết định tiếp nhận và ca tương ứng.
+- [x] Native budget/stop conditions được khóa.
+- [x] Review cổng Phase 01.
 
 ## Success Criteria
 

@@ -1,17 +1,17 @@
 ---
 title: "Rebuild FP thành một skill tư vấn tự chứa"
 description: "Kế hoạch có cổng kiểm chứng cho contract, runtime, native behavior và cài đặt Codex."
-status: pending
+status: in_progress
 priority: P2
 effort: tbd
-branch: main
+branch: codex/fp-rebuild
 tags: [fp, advisory, rebuild, native-acceptance]
 created: 2026-09-06
 ---
 
 # Kế hoạch rebuild FP
 
-Lượt này chỉ tạo kế hoạch, chưa thực hiện rebuild, native test, cài đặt hoặc commit. Các phase cần quyền thực thi bao phủ thao tác tương ứng. Nếu user sau đó cho triển khai toàn plan, bao gồm cài đặt/migration/commit đã mô tả, tiếp tục trong phạm vi đó mà không hỏi lại từng cổng; chỉ xin bổ sung phần chưa được cấp.
+Lượt lập plan ban đầu chỉ tạo kế hoạch. User sau đó đã cho phép triển khai toàn plan; phase 01/02 đang được thực hiện trong branch `codex/fp-rebuild`. Các phase cần quyền thực thi bao phủ thao tác tương ứng. Nếu user sau đó cho triển khai toàn plan, bao gồm cài đặt/migration/commit đã mô tả, tiếp tục trong phạm vi đó mà không hỏi lại từng cổng; chỉ xin bổ sung phần chưa được cấp.
 
 ## Brief gốc và nguồn để xây
 
@@ -56,7 +56,7 @@ Mỗi nhãn cần bằng chứng của chính nó. File đúng cú pháp hoặc 
 
 Baseline được báo tại lúc lập plan: `main`, HEAD `7c894c2`; `evals/results.md` đang dirty với 12 fixture, 7 PASS/5 FAIL (A1, A2, B1, D3, L2). Có evidence full-pipeline cũ và `first-principles/` untracked. Phase 01 phải kiểm tra lại, không coi snapshot này là grant ghi đè.
 
-Chụp/checkpoint toàn bộ phần cần giữ và tạo baseline commit sau khi thực thi được cho phép, trước rebuild. Branch triển khai đề xuất `codex/fp-rebuild`; hiện vẫn `main`. Giữ nguyên kết quả lịch sử theo rubric cũ. Contract mới cho phép giả thuyết có căn cứ; điều này không sửa kết quả A3 cũ. Core và bốn entry cũ còn truy được qua Git/history; runtime mới không phụ thuộc chúng.
+Chụp/checkpoint toàn bộ phần cần giữ và tạo baseline commit sau khi thực thi được cho phép, trước rebuild. Lúc lập plan repo còn `main`; triển khai đã chuyển sang `codex/fp-rebuild` sau baseline `f8b6caa`. Giữ nguyên kết quả lịch sử theo rubric cũ. Contract mới cho phép giả thuyết có căn cứ; điều này không sửa kết quả A3 cũ. Core và bốn entry cũ còn truy được qua Git/history; runtime mới không phụ thuộc chúng.
 
 Chỉ retire bốn entry đang hoạt động và chuyển hướng `AGENTS.md`, README, method links sau khi candidate qua staging và các cổng chuyển đổi liên quan. Không dọn vault, evidence hoặc mọi chữ “legacy”.
 
@@ -68,4 +68,4 @@ Agent triển khai xác minh nguồn/license ở Phase 01, package và tên gọ
 
 Ngân sách native staging đề xuất: 20 ca + 5 lượt lặp trọng yếu + 1 ordinary prompt = tối đa 26 phiên/bộ; tối đa hai bộ sau một vòng sửa, tổng 52 phiên, tối đa hai phiên đồng thời. Khóa exact messages/nhánh/nguồn ở Phase 01. Phase 04 có tối đa bốn phiên kiểm tra phân phối, một lượt UI và một phiên dùng thật riêng. Không tự rerun đến PASS hoặc tiêu thụ lại exact-once evidence. Snapshot cuối phải đạt cả bộ cùng hash; giữ raw trace và rubric ngoài context model thử. Nếu còn fail sau budget, báo residual và bước cần quyền mới.
 
-Tiến độ: cả bốn phase đang **pending**; checklist triển khai nằm trong từng phase. Tài liệu kế hoạch không phải kết quả nghiệm thu.
+Tiến độ: phase 01 **CONTRACT_READY**, phase 02 **PACKAGE_VALIDATED**, phase 03/04 **NOT_RUN**. Xem [implementation status](implementation-status.md); checklist triển khai nằm trong từng phase. Tài liệu kế hoạch không phải kết quả nghiệm thu.

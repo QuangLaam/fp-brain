@@ -1,6 +1,6 @@
 # Hợp đồng sản phẩm FP — kế hoạch rebuild 2026-09-06
 
-Trạng thái: yêu cầu sản phẩm được tổng hợp từ các câu trả lời đã đồng ý trong cuộc phỏng vấn. Kiến trúc và tiêu chí nghiệm thu bên dưới là đề xuất triển khai, chưa phải runtime đã được nghiệm thu. Lượt hiện tại chỉ được viết plan.
+Trạng thái: yêu cầu sản phẩm được tổng hợp từ các câu trả lời đã đồng ý trong cuộc phỏng vấn. Kiến trúc và tiêu chí nghiệm thu bên dưới là đề xuất triển khai, chưa phải runtime đã được nghiệm thu. Lượt lập plan ban đầu chỉ được viết plan; user sau đó đã cho phép triển khai. Contract v1 được khóa riêng tại `evals/rebuild-v1/contract-v1.md` trước runtime.
 
 Điểm xuất phát: [brief gốc và ba nguồn người dùng chỉ định](original-brief.md). Contract này ghi phần làm rõ brief qua phỏng vấn, không thay thế hoặc xóa ý định ban đầu.
 
