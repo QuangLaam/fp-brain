@@ -1,8 +1,11 @@
 # FP rebuild implementation status — 2026-09-06
 
 Current gate: **PACKAGE_VALIDATED**.
-Native acceptance, real install, migration, discovery, UI and user trial: **NOT_RUN**.
-No native budget consumed by the implementer.
+Native: **BLOCKED_HOST_MODEL_COMPATIBILITY** after the first N01 turn; **1/52 sessions consumed**. Real install, migration, discovery and user trial: **NOT_RUN**; UI evidence remains unavailable as described below. The implementer did not launch native sessions; the parent-coordinated attempt is now recorded separately.
+
+The attempt with CLI 0.151.0 and `gpt-6-astra`/`high` was rejected by the host before any assistant output. The exact staged `SKILL.md` injection is verified, but 165 ambient non-FP catalog entries remained, so complete clean context is not proven. This is a host/model setup block, not a behavioral failure of FP. Remaining cases/repeats/ordinary prompt are **NOT_RUN**. See the [native attempt report](../../evals/evidence/2026-09-06-fp-rebuild-native-bounded-01/report.md) and [diagnostics](../../evals/evidence/2026-09-06-fp-rebuild-native-bounded-01/N01-first-turn-diagnostics.json). No followup, rerun, runtime repair, installation or migration was performed.
+
+Recovery preparation update: the parent reports finding an already installed Desktop CLI at `/Applications/ChatGPT.app/Contents/Resources/codex`, version **0.153.4**, through read-only inspection. No installation/update was needed. The [host-only protocol amendment](../../evals/rebuild-v1/host-recovery-v1.md) is now prepared for the **second and final batch**, keeping the same candidate and model; no third batch or runtime repair is allocated. The executable is pinned to SHA256 `a30ec314bbd0e3721632234d07db7c99855db3b9f1e32dbe8c791947f07e7629`. No recovery launch is claimed; harness checks and parent review are required before launch, followed by a pause at the first N01 turn for provenance review. A complete final batch would total 27 sessions including the blocked attempt; unused budget does not authorize extra runs. The original N01 block and 1/52 count remain unchanged.
 
 ## Preservation and contract
 

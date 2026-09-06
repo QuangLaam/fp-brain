@@ -1,0 +1,20 @@
+{
+  "finished": "2026-09-06T15:47:43.002480+00:00",
+  "returncode": 1,
+  "timeout": false,
+  "error": null,
+  "session_id": "01a07767-4158-7803-953d-c03410d67d8f",
+  "turn_completed": false,
+  "raw_rollout_captured": true,
+  "candidate_unchanged": true,
+  "workspace_files_after": {
+    ".agents/skills/fp/SKILL.md": "273a642e020a4fdb71f672e7167be212ad6c4f1d6b150adaf77b4f11ab0cd9ea",
+    ".agents/skills/fp/agents/openai.yaml": "2aedd8dd136797c506a25acd111414788b4a09db42206a67d3a9c1f47eea7941",
+    ".agents/skills/fp/references/core.md": "8c5d17e059cffde6c34b3f02e3ea23149dd37483d1ba44990792fd6efdc4c8e5",
+    ".agents/skills/fp/references/learning-context.md": "6ef592d10141906266c3fbf36f3683e0906dbf929bfefbbab6b5a44934185434",
+    ".agents/skills/fp/references/methods.md": "ebcf311a2d3627126e58a79ef4ca1cbe12090a51dbf85c5794532cb1dab5f8f0"
+  },
+  "workspace_files_changed": false,
+  "state": "EXECUTION_ERROR",
+  "verdict": "NOT_GRADED"
+}

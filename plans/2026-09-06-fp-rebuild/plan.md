@@ -11,7 +11,7 @@ created: 2026-09-06
 
 # Kế hoạch rebuild FP
 
-Lượt lập plan ban đầu chỉ tạo kế hoạch. User sau đó đã cho phép triển khai toàn plan; phase 01/02 đang được thực hiện trong branch `codex/fp-rebuild`. Các phase cần quyền thực thi bao phủ thao tác tương ứng. Nếu user sau đó cho triển khai toàn plan, bao gồm cài đặt/migration/commit đã mô tả, tiếp tục trong phạm vi đó mà không hỏi lại từng cổng; chỉ xin bổ sung phần chưa được cấp.
+Lượt lập plan ban đầu chỉ tạo kế hoạch. User sau đó đã cho phép triển khai toàn plan; phase 01/02 đã tới `PACKAGE_VALIDATED` trong branch `codex/fp-rebuild`; lượt native đầu hiện bị chặn bởi host/model. Các phase cần quyền thực thi bao phủ thao tác tương ứng. Nếu user sau đó cho triển khai toàn plan, bao gồm cài đặt/migration/commit đã mô tả, tiếp tục trong phạm vi đó mà không hỏi lại từng cổng; chỉ xin bổ sung phần chưa được cấp.
 
 ## Brief gốc và nguồn để xây
 
@@ -68,4 +68,6 @@ Agent triển khai xác minh nguồn/license ở Phase 01, package và tên gọ
 
 Ngân sách native staging đề xuất: 20 ca + 5 lượt lặp trọng yếu + 1 ordinary prompt = tối đa 26 phiên/bộ; tối đa hai bộ sau một vòng sửa, tổng 52 phiên, tối đa hai phiên đồng thời. Khóa exact messages/nhánh/nguồn ở Phase 01. Phase 04 có tối đa bốn phiên kiểm tra phân phối, một lượt UI và một phiên dùng thật riêng. Không tự rerun đến PASS hoặc tiêu thụ lại exact-once evidence. Snapshot cuối phải đạt cả bộ cùng hash; giữ raw trace và rubric ngoài context model thử. Nếu còn fail sau budget, báo residual và bước cần quyền mới.
 
-Tiến độ: phase 01 **CONTRACT_READY**, phase 02 **PACKAGE_VALIDATED**, phase 03/04 **NOT_RUN**. Xem [implementation status](implementation-status.md); checklist triển khai nằm trong từng phase. Tài liệu kế hoạch không phải kết quả nghiệm thu.
+Tiến độ: phase 01 **CONTRACT_READY**, phase 02 **PACKAGE_VALIDATED**, phase 03 **BLOCKED_HOST_MODEL_COMPATIBILITY** sau lượt đầu N01 (**1/52 sessions consumed**, chưa có model output), phase 04 **NOT_RUN**. [Báo cáo native](../../evals/evidence/2026-09-06-fp-rebuild-native-bounded-01/report.md) xác nhận staged entry đúng bytes nhưng 165 ambient non-FP catalog entries vẫn còn; chưa chứng minh clean context. Giữ gate `PACKAGE_VALIDATED`; chưa install/migrate hay chạy ca tiếp theo. Xem [implementation status](implementation-status.md); checklist triển khai nằm trong từng phase. Tài liệu kế hoạch không phải kết quả nghiệm thu.
+
+Recovery đang được chuẩn bị: parent đã báo tìm thấy Desktop CLI 0.153.4 có sẵn. [Amendment host-only riêng](../../evals/rebuild-v1/host-recovery-v1.md) đã được chuẩn bị cho batch thứ hai/cuối, giữ candidate/model và không mở batch thứ ba hoặc runtime repair; chưa ghi nhận recovery launch. Initial N01 block và budget 1/52 được giữ nguyên.

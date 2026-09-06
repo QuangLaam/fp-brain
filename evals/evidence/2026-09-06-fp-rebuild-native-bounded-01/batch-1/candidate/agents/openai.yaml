@@ -1,0 +1,6 @@
+interface:
+  display_name: "FP"
+  short_description: "Clarify, reason, decide and learn through your work"
+  default_prompt: "Use $fp to help me understand this problem and choose a grounded next step."
+policy:
+  allow_implicit_invocation: false

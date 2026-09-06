@@ -1,0 +1,128 @@
+{
+  "scope": "Read-only diagnostic extraction from one consumed first-turn attempt; no rerun or followup.",
+  "classification": "BLOCKED_HOST_MODEL_COMPATIBILITY; selected entry injection verified but behavior unobserved and complete clean context not established.",
+  "session_id": "01a07767-4158-7803-953d-c03410d67d8f",
+  "selected_skills": [
+    {
+      "raw_line": 9,
+      "path": "/private/var/folders/f4/1x7nmn4x4rg76xlt1wsrt2tr0000gn/T/fp-native-k621a1ci/workspace/.agents/skills/fp/SKILL.md",
+      "resolved": "/private/var/folders/f4/1x7nmn4x4rg76xlt1wsrt2tr0000gn/T/fp-native-k621a1ci/workspace/.agents/skills/fp/SKILL.md",
+      "expected": "/var/folders/f4/1x7nmn4x4rg76xlt1wsrt2tr0000gn/T/fp-native-k621a1ci/workspace/.agents/skills/fp/SKILL.md",
+      "expected_resolved": "/private/var/folders/f4/1x7nmn4x4rg76xlt1wsrt2tr0000gn/T/fp-native-k621a1ci/workspace/.agents/skills/fp/SKILL.md",
+      "same_resolved_entry": true,
+      "injected_body_sha256": "273a642e020a4fdb71f672e7167be212ad6c4f1d6b150adaf77b4f11ab0cd9ea",
+      "staged_source_sha256": "273a642e020a4fdb71f672e7167be212ad6c4f1d6b150adaf77b4f11ab0cd9ea",
+      "body_equals_staged_source": true
+    }
+  ],
+  "actual_turn_context": {
+    "raw_line": 6,
+    "turn_id": "01a07767-4212-7310-aa3f-f32a23932566",
+    "cwd": "/private/var/folders/f4/1x7nmn4x4rg76xlt1wsrt2tr0000gn/T/fp-native-k621a1ci/workspace",
+    "workspace_roots": [
+      "/private/var/folders/f4/1x7nmn4x4rg76xlt1wsrt2tr0000gn/T/fp-native-k621a1ci/workspace"
+    ],
+    "current_date": "2026-09-06",
+    "timezone": "Asia/Ho_Chi_Minh",
+    "approval_policy": "never",
+    "approvals_reviewer": "user",
+    "sandbox_policy": {
+      "type": "read-only"
+    },
+    "permission_profile": {
+      "type": "managed",
+      "file_system": {
+        "type": "restricted",
+        "entries": [
+          {
+            "path": {
+              "type": "special",
+              "value": {
+                "kind": "root"
+              }
+            },
+            "access": "read"
+          }
+        ]
+      },
+      "network": "restricted"
+    },
+    "model": "gpt-6-astra",
+    "personality": "pragmatic",
+    "collaboration_mode": {
+      "mode": "default",
+      "settings": {
+        "model": "gpt-6-astra",
+        "reasoning_effort": "high",
+        "developer_instructions": null
+      }
+    },
+    "multi_agent_version": "v1",
+    "realtime_active": false,
+    "effort": "high",
+    "summary": "auto"
+  },
+  "ambient_catalog": [
+    {
+      "raw_line": 3,
+      "role": "developer",
+      "catalog_rows": 165,
+      "root_mentions": [
+        "- `r0` = `/Users/quanglaam/.agents/skills`"
+      ],
+      "fp_rows": [],
+      "catalog_first_3": [
+        "- imagegen: Generate or edit raster images when the task benefits from AI-created bitmap visua (file: r1/imagegen/SKILL.md)",
+        "- openai-docs: Use for Codex models/pricing, scheduled tasks, skills, settings, setup, troubleshoot (file: r1/openai-docs/SKILL.md)",
+        "- plugin-creator: Create and scaffold plugin directories for Codex with a required `.codex-plugin/pl (file: r1/plugin-creator/SKILL.md)"
+      ]
+    }
+  ],
+  "assistant_outputs": [],
+  "host_errors": [
+    {
+      "type": "item.completed",
+      "item": {
+        "id": "item_0",
+        "type": "error",
+        "message": "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /private/var/folders/f4/1x7nmn4x4rg76xlt1wsrt2tr0000gn/T/fp-native-k621a1ci/codex-home/config.toml."
+      }
+    },
+    {
+      "type": "item.completed",
+      "item": {
+        "id": "item_1",
+        "type": "error",
+        "message": "Model metadata for `gpt-6-astra` not found. Defaulting to fallback metadata; this can degrade performance and cause issues."
+      }
+    },
+    {
+      "type": "item.completed",
+      "item": {
+        "id": "item_2",
+        "type": "error",
+        "message": "Skill descriptions were shortened to fit the skills context budget. Codex can still see every skill, but some descriptions are shorter. Disable unused skills or plugins to leave more room for the rest."
+      }
+    },
+    {
+      "type": "error",
+      "message": "{\"type\":\"error\",\"status\":400,\"error\":{\"type\":\"invalid_request_error\",\"message\":\"The 'gpt-6-astra' model requires a newer version of Codex. Please upgrade to the latest app or CLI and try again.\"}}"
+    },
+    {
+      "type": "turn.failed",
+      "error": {
+        "message": "{\"type\":\"error\",\"status\":400,\"error\":{\"type\":\"invalid_request_error\",\"message\":\"The 'gpt-6-astra' model requires a newer version of Codex. Please upgrade to the latest app or CLI and try again.\"}}"
+      }
+    }
+  ],
+  "stderr_bytes": 0,
+  "hash_identity": {
+    "management_package_hash": "3201cfb458bb7b51d81c5913965f8f1a729121f7fba0dc3d25026402397e6aa2",
+    "runner_tree_hash": "c79d1e0425c914c87800bfe2ad91d0e89f94565be7a97bf788fd4939833ad843",
+    "identical_file_maps": true,
+    "note": "Different aggregate encodings over the same five file hashes; not a candidate mismatch."
+  },
+  "sessions_consumed": 1,
+  "additional_sessions_launched": 0,
+  "temporary_auth_removed": true
+}

@@ -1,0 +1,22 @@
+{
+  "slot": "N01",
+  "case_id": "N01",
+  "cwd": "/var/folders/f4/1x7nmn4x4rg76xlt1wsrt2tr0000gn/T/fp-native-k621a1ci/workspace",
+  "cwd_resolved": "/private/var/folders/f4/1x7nmn4x4rg76xlt1wsrt2tr0000gn/T/fp-native-k621a1ci/workspace",
+  "codex_home": "/var/folders/f4/1x7nmn4x4rg76xlt1wsrt2tr0000gn/T/fp-native-k621a1ci/codex-home",
+  "codex_home_resolved": "/private/var/folders/f4/1x7nmn4x4rg76xlt1wsrt2tr0000gn/T/fp-native-k621a1ci/codex-home",
+  "temporary_root": "/var/folders/f4/1x7nmn4x4rg76xlt1wsrt2tr0000gn/T/fp-native-k621a1ci",
+  "staged_files": {
+    ".agents/skills/fp/SKILL.md": "273a642e020a4fdb71f672e7167be212ad6c4f1d6b150adaf77b4f11ab0cd9ea",
+    ".agents/skills/fp/agents/openai.yaml": "2aedd8dd136797c506a25acd111414788b4a09db42206a67d3a9c1f47eea7941",
+    ".agents/skills/fp/references/core.md": "8c5d17e059cffde6c34b3f02e3ea23149dd37483d1ba44990792fd6efdc4c8e5",
+    ".agents/skills/fp/references/learning-context.md": "6ef592d10141906266c3fbf36f3683e0906dbf929bfefbbab6b5a44934185434",
+    ".agents/skills/fp/references/methods.md": "ebcf311a2d3627126e58a79ef4ca1cbe12090a51dbf85c5794532cb1dab5f8f0"
+  },
+  "expected_entry": "/var/folders/f4/1x7nmn4x4rg76xlt1wsrt2tr0000gn/T/fp-native-k621a1ci/workspace/.agents/skills/fp/SKILL.md",
+  "expected_entry_resolved": "/private/var/folders/f4/1x7nmn4x4rg76xlt1wsrt2tr0000gn/T/fp-native-k621a1ci/workspace/.agents/skills/fp/SKILL.md",
+  "path_comparison": "Compare observed paths after Path.resolve(); /var and /private/var may identify the same file.",
+  "context_description": [],
+  "source_absent_before": true,
+  "auth": "Copied auth.json only; content never included in evidence"
+}

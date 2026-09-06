@@ -6,7 +6,7 @@
 
 ## Overview
 
-Trạng thái: pending; phụ thuộc `PACKAGE_VALIDATED`, candidate cố định và quyền chạy bộ thử đã chốt. Mục tiêu là quan sát hành vi trong host/model thật với ngân sách hữu hạn.
+Trạng thái: **BLOCKED_HOST_MODEL_COMPATIBILITY**. N01 lượt đầu đã tiêu thụ **1/52 sessions** nhưng không có model output: CLI 0.151.0 bị host từ chối khi dùng `gpt-6-astra`/`high`, yêu cầu runtime mới hơn. Không followup/rerun. Gate vẫn `PACKAGE_VALIDATED`; phase 04 chưa chạy. Xem [báo cáo](../../evals/evidence/2026-09-06-fp-rebuild-native-bounded-01/report.md) và [diagnostics](../../evals/evidence/2026-09-06-fp-rebuild-native-bounded-01/N01-first-turn-diagnostics.json). Mục tiêu là quan sát hành vi trong host/model thật với ngân sách hữu hạn.
 
 ## Key Insights
 
@@ -52,12 +52,12 @@ Mỗi record ghi case ID, contract/rubric version, candidate hash, host/model/co
 
 ## Todo list
 
-- [ ] Candidate hash, runtime config và ngân sách xác nhận.
-- [ ] Context sạch/provenance được chứng minh trong phạm vi khả thi.
-- [ ] Các ca chạy đúng lượt, tối đa hai phiên đồng thời.
-- [ ] Raw trace/stderr và ledger mới đủ truy vết.
-- [ ] Review rubric ngoài model thử hoàn tất.
-- [ ] Verdict và residual có giới hạn rõ.
+- [x] Candidate file hashes, actual runtime config và ngân sách của attempt đầu xác nhận: 1/52 consumed; model `gpt-6-astra`, effort `high`, read-only/never.
+- [ ] Context sạch được chứng minh. Staged entry path/body khớp chính xác, nhưng 165 ambient non-FP catalog entries còn trong context; không gộp injection PASS thành clean-context PASS.
+- [ ] Bộ ca chạy hoàn tất. Chỉ N01 lượt đầu được launch, chưa có assistant output; N02–N20, năm repeats, ordinary và batch sau đều NOT_RUN.
+- [x] Raw trace/stdout/stderr, invocation/result và budget ledger của attempt đầu được lưu; evidence bộ đầy đủ chưa có.
+- [ ] Review hành vi theo rubric hoàn tất. N01 NOT_GRADED do host/model block; không có output để chấm.
+- [x] Verdict và residual của attempt đầu được ghi rõ trong report; NATIVE_ACCEPTED chưa đạt.
 
 ## Success Criteria
 
@@ -72,5 +72,7 @@ Model có biến thiên, host memory có thể ảnh hưởng, global skill có 
 Evidence có thể chứa dữ liệu phiên; chỉ cung cấp case tối thiểu, không dùng secret thật. Raw evidence bảo toàn; bản chia sẻ được redact riêng có provenance, không sửa trace gốc để che hành vi lỗi.
 
 ## Next steps
+
+Hiện giữ dependent native runs tại stop condition. Parent đã báo tìm thấy Desktop CLI 0.153.4 có sẵn qua kiểm tra read-only; [protocol amendment riêng](../../evals/rebuild-v1/host-recovery-v1.md) cho batch thứ hai/cuối đã được chuẩn bị, giữ candidate/model, không có batch thứ ba hoặc runtime repair. Chưa ghi nhận launch recovery; parent review protocol trước khi chạy. Số slot chưa dùng không tự cấp một lượt retry, đổi model, nâng cấp host hay sửa runtime. Không thay frozen fixtures hoặc raw evidence để cứu PASS.
 
 Nếu đạt, chuẩn bị gói cài và review cụ thể cho [Phase 04](phase-04-install-and-closeout.md). Tiếp tục nếu scope đã bao phủ cài đặt; chỉ hỏi phần quyền còn thiếu. Nếu chưa đạt sau ngân sách, user quyết định vòng xử lý mới dựa residual, không mặc định mở rộng budget.
