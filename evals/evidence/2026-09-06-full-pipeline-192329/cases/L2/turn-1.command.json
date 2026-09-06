@@ -1,0 +1,23 @@
+[
+  "codex",
+  "exec",
+  "-C",
+  "/Users/quanglaam/fp-brain",
+  "--sandbox",
+  "read-only",
+  "-c",
+  "sandbox_mode=\"read-only\"",
+  "-c",
+  "approval_policy=\"never\"",
+  "--ignore-user-config",
+  "--enable",
+  "skip_host_skill_discovery",
+  "--disable",
+  "plugins",
+  "--disable",
+  "memories",
+  "-m",
+  "gpt-5.4-mini",
+  "--json",
+  "$fp-learn\n\nTôi hiểu state là dữ liệu hiện tại quyết định UI và hành vi.\nVí dụ submitting=true thì hiện loading và chặn gửi hai lần. Tôi hiểu vậy đúng không?"
+]

@@ -1,0 +1,21 @@
+[
+  "codex",
+  "exec",
+  "resume",
+  "01a076ac-aced-7291-a607-0b6a974d91c7",
+  "-c",
+  "sandbox_mode=\"read-only\"",
+  "-c",
+  "approval_policy=\"never\"",
+  "--ignore-user-config",
+  "--enable",
+  "skip_host_skill_discovery",
+  "--disable",
+  "plugins",
+  "--disable",
+  "memories",
+  "-m",
+  "gpt-5.4-mini",
+  "--json",
+  "Giải thích trực tiếp giúp tôi bằng ví dụ đó."
+]

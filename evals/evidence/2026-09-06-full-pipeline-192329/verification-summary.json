@@ -1,0 +1,48 @@
+{
+  "behavioral_pass": [
+    "A3",
+    "A4",
+    "A5",
+    "B2",
+    "D1",
+    "D2",
+    "L1"
+  ],
+  "behavioral_fail": [
+    "A1",
+    "A2",
+    "B1",
+    "D3",
+    "L2"
+  ],
+  "behavioral_not_run": [],
+  "additional_pass": [
+    "repo-local CLI discovery 4/4",
+    "ordinary-prompt non-invocation"
+  ],
+  "additional_not_run": [
+    "Desktop picker",
+    "real-user Ask usefulness"
+  ],
+  "actual_user_messages_exact": {
+    "A1": true,
+    "A2": true,
+    "A3": true,
+    "A4": true,
+    "A5": true,
+    "B1": true,
+    "B2": true,
+    "D1": true,
+    "D2": true,
+    "D3": true,
+    "L1": true,
+    "L2": true,
+    "ORDINARY": true
+  },
+  "completed_turns": 29,
+  "session_count": 13,
+  "all_contexts_expected": true,
+  "all_runtime_hashes_unchanged": true,
+  "acceptance_sha256": "77d60b6e53b5415c1f693f98e0cb32e878715d30b599fc071298856935ba1efd",
+  "reviewed_model_tools_only_core_and_selected_skill_reads": true
+}
