@@ -2,7 +2,7 @@
 +++ b/AGENTS.md
 @@ -1,15 +1,17 @@
  # FP-Brain repository guidance
- 
+
 -This repository contains four explicit, advisory first-principles skills. Keep
 -runtime work read-only and side-effect free. A request to build, edit, install,
 -execute, delegate, commit, or publish is outside an FP skill and needs separate
@@ -11,7 +11,7 @@
 +`skills/fp/`. Runtime work stays read-only and side-effect free. A request to
 +build, edit, install, execute, delegate, commit or publish is a separately
 +authorized task outside FP.
- 
+
 -The shared method is [`method/CORE.md`](method/CORE.md). Public skill entrypoints
 -are under `.agents/skills/fp-{ask,brainstorm,decide,learn}/`. Each entrypoint
 -must reach the core through its repository-relative link and must not depend on
@@ -20,7 +20,7 @@
 +The package must not depend on global FP pointers, other skills/plugins, hooks,
 +plans, evaluation assets, original notes or personal data. Management is separate:
 +`scripts/manage-fp.py` and `docs/install.md`.
- 
+
 -For acceptance work, use [`evals/acceptance.md`](evals/acceptance.md) and record
 -actual evidence in `evals/results.md`. Syntax checks, hashes, or simulations do
 -not establish native behavioral acceptance.
@@ -33,7 +33,7 @@
 +++ b/README.md
 @@ -1,34 +1,29 @@
  # FP-Brain
- 
+
 -FP-Brain is a local set of four explicit, advisory skills for reasoning from
 -first principles. It helps clarify problems, develop solution directions,
 -compare options, and understand concepts without executing work on the user's
@@ -50,7 +50,7 @@
 +FP helps clarify a problem, examine assumptions, develop grounded options, make
 +choices from your priorities, and learn through the work. Invoke `$fp` explicitly
 +in Codex once the self-contained package is installed.
- 
+
  ```text
 -$fp-learn
 -
@@ -58,7 +58,7 @@
  I understand button variants in Figma, but I do not understand frontend state.
 +Explain it using the form I am designing.
  ```
- 
+
 -Each skill reads the shared method at [`method/CORE.md`](method/CORE.md). The
 -skills are explicit-only through their `agents/openai.yaml` policy, perform only
 -advisory responses and read-only research, and do not depend on one another or
@@ -71,9 +71,9 @@
 +The canonical package is [skills/fp](skills/fp/SKILL.md); its references live within
 +the package. Follow [install and rollback guidance](docs/install.md) for the
 +managed copy in user-scope discovery. There is no second same-name repo entry.
- 
+
  ## Evidence status
- 
+
 -The acceptance fixtures are in [`evals/acceptance.md`](evals/acceptance.md),
 -source mapping is in [`evals/provenance.md`](evals/provenance.md), and observed
 -results are in [`evals/results.md`](evals/results.md). Structural validation is
@@ -91,7 +91,7 @@
 +> Historical four-skill core, retained for provenance. The active self-contained method is in [skills/fp](../skills/fp/SKILL.md).
 +
  # FP-Brain core method
- 
+
  Use first-principles reasoning to help the user understand a problem, develop
 --- a/.agents/skills/fp-ask/SKILL.md
 +++ /dev/null
