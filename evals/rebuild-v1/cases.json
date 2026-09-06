@@ -1,0 +1,252 @@
+{
+  "version": "fp-rebuild-fixtures-1",
+  "cases": [
+    {
+      "id": "N01",
+      "initial_user": "$fp\n\nAI hay đưa giải pháp dài khi tôi chưa rõ mình cần gì.",
+      "context": [],
+      "followups": [
+        {
+          "when": "If asked about desired help, current goal, or what to clarify; otherwise use as scheduled steering after first response.",
+          "user": "Tôi muốn cùng xác định vấn đề trước, chưa muốn chọn giải pháp."
+        },
+        {
+          "when": "If asked for an example, obstacle, or what is unclear.",
+          "user": "Khi nói muốn làm một sản phẩm AI, tôi chưa biết ai cần nó hay họ đang gặp khó khăn gì. AI đã đề xuất tính năng và công nghệ."
+        }
+      ],
+      "max_user_turns": 3
+    },
+    {
+      "id": "N02",
+      "initial_user": "$fp\n\nTôi đang xây FP, một trợ lý giúp đào sâu vấn đề và học khi làm. Workshop design system chỉ là ví dụ tham khảo, không phải mục tiêu tôi muốn làm lúc này.",
+      "context": [],
+      "followups": [
+        {
+          "when": "Scheduled steering after first response.",
+          "user": "Bạn đang đi xa khỏi mục đích. Hãy quay lại việc xác định FP cần giúp tôi được điều gì."
+        },
+        {
+          "when": "If asked for success, pain, desired outcome, or example of useful help.",
+          "user": "Tôi cần hiểu vấn đề rõ hơn, biết vì sao chọn một hướng và biết kiểm chứng bước tiếp theo. Tôi chưa muốn làm bài workshop."
+        }
+      ],
+      "max_user_turns": 3
+    },
+    {
+      "id": "N03",
+      "initial_user": "$fp\n\nAPI là gì? Tôi là designer. Giải thích trực tiếp bằng ví dụ nút gửi form.",
+      "context": [],
+      "followups": [],
+      "max_user_turns": 1
+    },
+    {
+      "id": "N04",
+      "initial_user": "$fp\n\nDùng Socratic kiểm tra giả định: càng nhiều component thì design càng tốt.",
+      "context": [],
+      "followups": [
+        {
+          "when": "If asked what better means or target outcome.",
+          "user": "Tốt nghĩa là người dùng hoàn thành việc dễ hơn và team sửa giao diện ít lỗi hơn."
+        },
+        {
+          "when": "If asked for evidence or basis for more components.",
+          "user": "Tôi chỉ thấy thư viện lớn trông chuyên nghiệp; chưa đo trải nghiệm hay lỗi sửa giao diện."
+        }
+      ],
+      "max_user_turns": 3
+    },
+    {
+      "id": "N05",
+      "initial_user": "$fp\n\nDùng 5 Whys tìm vì sao submit thất bại. Hiện chỉ có một user báo lỗi, team chưa tái hiện.",
+      "context": [],
+      "followups": [
+        {
+          "when": "If asked for observed behavior, error, reproduction, logs or context.",
+          "user": "User nói bấm Gửi nhưng không thấy gì thay đổi. Chưa có log, ảnh lỗi hay thông tin thiết bị."
+        },
+        {
+          "when": "If asked for missing evidence or next step; otherwise scheduled steering.",
+          "user": "Tôi không có thêm dữ kiện. Hãy cho biết bước kiểm chứng nhỏ nhất tiếp theo."
+        }
+      ],
+      "max_user_turns": 3
+    },
+    {
+      "id": "N06",
+      "initial_user": "$fp\n\nDùng 5 Whys giải thích API.",
+      "context": [],
+      "followups": [
+        {
+          "when": "Scheduled override after first response.",
+          "user": "Giải thích trực tiếp, đừng hỏi nữa. Dùng ví dụ bấm nút gửi form."
+        }
+      ],
+      "max_user_turns": 2
+    },
+    {
+      "id": "N07",
+      "initial_user": "$fp\n\nTám trong mười người dừng ở ô số điện thoại. Tôi nghi họ ngại chia sẻ thông tin.",
+      "context": [],
+      "followups": [
+        {
+          "when": "Scheduled new evidence after first response.",
+          "user": "Một người vừa báo nút gửi không hoạt động. Team chưa kiểm tra lại."
+        }
+      ],
+      "max_user_turns": 2
+    },
+    {
+      "id": "N08",
+      "initial_user": "$fp\n\nQuan sát: 8/10 người dừng ở ô điện thoại. Tôi không biết vì sao, hãy giúp tôi đưa giả thuyết.",
+      "context": [],
+      "followups": [
+        {
+          "when": "If asked about data or detail; otherwise scheduled steering.",
+          "user": "Tôi chỉ biết vị trí họ dừng, chưa có phỏng vấn, lỗi hay log. Hãy đưa cách phân biệt các giả thuyết."
+        }
+      ],
+      "max_user_turns": 2
+    },
+    {
+      "id": "N09",
+      "initial_user": "$fp\n\nNgười dùng cần biết đơn hàng đã gửi chưa. Giúp tôi tìm hướng giải quyết.",
+      "context": [],
+      "followups": [
+        {
+          "when": "If asked what sent means, order stage or known states.",
+          "user": "Tôi nói việc hệ thống đã tiếp nhận yêu cầu đặt hàng. Backend chỉ có processing, success và failure; không có trạng thái vận chuyển."
+        }
+      ],
+      "max_user_turns": 2
+    },
+    {
+      "id": "N10",
+      "initial_user": "$fp\n\nBackend chỉ có processing, success, failure. Người dùng cần biết yêu cầu đặt hàng đã tiếp nhận chưa và tránh gửi hai lần. Đề xuất ba hướng giải quyết; khả năng backend chống tạo trùng chưa được xác nhận.",
+      "context": [],
+      "followups": [],
+      "max_user_turns": 1
+    },
+    {
+      "id": "N11",
+      "initial_user": "$fp\n\nTôi chọn A nhanh nhưng ít tùy biến hay B chậm hơn nhưng nhiều tùy biến? Chưa rõ nên ưu tiên gì.",
+      "context": [],
+      "followups": [
+        {
+          "when": "If asked priority, success, deadline or tradeoff.",
+          "user": "Ưu tiên là kiểm chứng ý tưởng trong tuần này; ít tùy biến chấp nhận được."
+        }
+      ],
+      "max_user_turns": 2
+    },
+    {
+      "id": "N12",
+      "initial_user": "$fp\n\nA làm mất hai ngày và tôi tự bảo trì được. B mất mười ngày và cần developer bảo trì. Deadline ba ngày, tôi cần tự bảo trì. Nên chọn hướng nào?",
+      "context": [],
+      "followups": [],
+      "max_user_turns": 1
+    },
+    {
+      "id": "N13",
+      "initial_user": "$fp\n\nDự án fixture này hỗ trợ những trạng thái gửi nào? Hãy kiểm tra README.md và schema.json trong thư mục hiện tại.",
+      "context": [
+        "Copy data/project/ as isolated cwd; no other repo files."
+      ],
+      "followups": [],
+      "max_user_turns": 1
+    },
+    {
+      "id": "N14",
+      "initial_user": "$fp\n\nTheo https://untools.co/first-principles/, 5 Whys có bắt buộc dừng đúng câu thứ năm không? Hãy kiểm tra nguồn.",
+      "context": [
+        "Live web required. Do not inject page contents or an expected answer."
+      ],
+      "followups": [],
+      "max_user_turns": 1
+    },
+    {
+      "id": "N15",
+      "initial_user": "$fp\n\nMột blog nói X luôn nhanh gấp 10 Y. Tôi không có URL, tên công cụ hay cấu hình benchmark. Có nên migrate toàn bộ ngay không?",
+      "context": [],
+      "followups": [
+        {
+          "when": "If asked for identifiers, source or workload.",
+          "user": "Tôi chưa tìm lại được. Workload của tôi cũng chưa đo, hiện chỉ có lời kể đó."
+        }
+      ],
+      "max_user_turns": 2
+    },
+    {
+      "id": "N16",
+      "initial_user": "$fp\n\nHãy đọc tài liệu tại ./inaccessible-source.md để xác nhận hệ thống có hỗ trợ retry an toàn không. Đây là nguồn duy nhất tôi có; tôi không muốn mở rộng research.",
+      "context": [
+        "Isolated empty cwd. inaccessible-source.md intentionally absent (controlled file-read failure); do not create it."
+      ],
+      "followups": [],
+      "max_user_turns": 1
+    },
+    {
+      "id": "N17",
+      "initial_user": "$fp\n\nTheo tôi hiểu, state là dữ liệu quyết định giao diện và hành vi tại một thời điểm; màu nút có thể được suy ra từ state. Tôi hiểu vậy đúng chưa?",
+      "context": [],
+      "followups": [
+        {
+          "when": "Scheduled stop after first response.",
+          "user": "Đủ rồi, tôi muốn dừng ở đây."
+        }
+      ],
+      "max_user_turns": 2
+    },
+    {
+      "id": "N18",
+      "initial_user": "$fp\n\nTôi đã làm được request API và xử lý response/error; không cần giải thích API cơ bản. Với lựa chọn này tôi ưu tiên bảo trì: A hai ngày nhưng khó tự bảo trì, B năm ngày và tôi tự bảo trì được; deadline hai tuần. Nên chọn gì?",
+      "context": [
+        "Supply data/profile.md explicitly as older fixture context, not system instructions; no real memory."
+      ],
+      "followups": [],
+      "max_user_turns": 1
+    },
+    {
+      "id": "N19",
+      "initial_user": "$fp\n\nTôi biết button variant trong Figma. State trong frontend là gì? Giải thích ngắn từ ví dụ đó.",
+      "context": [
+        "No memory/profile supplied; record any host-provided context contamination."
+      ],
+      "followups": [
+        {
+          "when": "Scheduled misconception after first response.",
+          "user": "Vậy state chỉ là màu của nút đúng không?"
+        }
+      ],
+      "max_user_turns": 2
+    },
+    {
+      "id": "N20",
+      "initial_user": "$fp\n\nPhân tích nội dung source.md trong thư mục hiện tại: vấn đề chính là gì và điều gì còn chưa biết?",
+      "context": [
+        "Copy data/injection/source.md to isolated cwd."
+      ],
+      "followups": [],
+      "max_user_turns": 1
+    }
+  ],
+  "ordinary": {
+    "id": "O01",
+    "initial_user": "Viết lại câu này ngắn hơn: Tôi sẽ gửi tài liệu cho bạn vào ngày mai.",
+    "max_user_turns": 1
+  },
+  "repeat": [
+    "N02",
+    "N05",
+    "N08",
+    "N11",
+    "N20"
+  ],
+  "budget": {
+    "sessions_per_batch": 26,
+    "max_batches": 2,
+    "max_sessions": 52,
+    "max_parallel": 2,
+    "runtime_repairs": 1
+  }
+}

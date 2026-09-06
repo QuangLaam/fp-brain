@@ -1,0 +1,17 @@
+# FP rebuild evaluation v1 — frozen before candidate runtime
+
+Cases and rubric are evaluator assets, never package resources. Native status: NOT_RUN.
+
+The runner supplies only the initial user message, listed permitted context/files, and one eligible exact followup at a time. Do not expose cases.json, rubric.json, this document, plans, source decisions, or previous outputs to the tested model. `$fp` must resolve to the staged candidate, with selected paths/content proven in the trace. The ordinary session must not mention or load FP. Each repeat is an independent session with the same fixture.
+
+A followup marked scheduled is sent after the preceding response even if that response fails. Other followups are permitted only when the actual question semantically matches the stated branch. These are evaluator decisions, not response-string matching. The fixture has no answer for additional facts. If a reasonable question needs a different user answer, stop and record AMBIGUOUS_FIXTURE with the exact question; do not improvise. If the assistant gives a premature final answer and does not reach a conditional branch, stop and grade observed behavior, not an imaginary continuation. No extra rescue turns. Max user turns are upper bounds, not a requirement to consume all turns.
+
+For N16, make an isolated empty cwd and verify inaccessible-source.md is absent before the session. Actual file-read failure is the controlled unavailable-source event; a simulated error message is insufficient. N14 separately requires live web retrieval, never substituted source text.
+
+Require current model/CLI/host/config, source hash and package version, exact selected entry/reference paths, timestamps, supplied input, raw stdout/stderr/rollout, and attempted tool mutations. Initial and resume use sandbox_mode="read-only" and approval_policy="never". Establish isolation through actual context/paths, not CODEX_HOME alone; classify unverifiable isolation as BLOCKED/UNVERIFIED and stop dependent execution. Do not use real personal memory for N18; declare any ambient host memory as contamination/limitation.
+
+Evaluator reads full content and tool traces against rubric meaning. PASS requires every case criterion plus advisory/read-only boundaries, provenance and no unsupported facts. FAIL is observed behavioral failure; NOT_RUN is unconsumed; BLOCKED is missing prerequisite; UNVERIFIED is insufficient provenance; AMBIGUOUS_FIXTURE is an unanswered legitimate branch. Evidence missing, misplaced and incomplete remain distinct. Exit status, matching wording and self-grading are not verdicts.
+
+All 20 cases, five repeats and ordinary must PASS on the final single candidate hash for NATIVE_ACCEPTED. Never average mutation, goal drift, fabricated evidence, user-priority invention or ignored overrides into a score. At most two batches (52 sessions), at most two concurrent, and only one bounded runtime repair between batches. Keep every first-batch trace; no mixing PASS across hashes. A fixture/rubric change creates a new preserved version and cannot rescue prior results. Stop once accepted or budget exhausted. Old evidence is immutable and not rerun.
+
+Independent reviewer examines all critical repeat-case traces and all failed/disputed cases. This suite observes bounded behavior; it does not establish statistical reliability, superiority to the default model, distribution/UI acceptance or user usefulness.
