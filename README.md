@@ -1,34 +1,25 @@
-# FP-Brain
+# FP
 
-FP-Brain is a local set of four explicit, advisory skills for reasoning from
-first principles. It helps clarify problems, develop solution directions,
-compare options, and understand concepts without executing work on the user's
-behalf.
-
-## Use the skills
-
-- `$fp-ask` — clarify what you are stuck on, one useful question at a time.
-- `$fp-brainstorm` — develop distinct directions from known facts and needs.
-- `$fp-decide` — compare options against your priorities and available evidence.
-- `$fp-learn` — understand a concept and apply it to the work in front of you.
-
-Example:
+FP là một skill tư duy để cùng bạn làm rõ vấn đề, kiểm tra giả định, tìm hướng
+có căn cứ và học ngay trong công việc. Bạn gọi một entry: **`$fp`**.
 
 ```text
-$fp-learn
-
-I understand button variants in Figma, but I do not understand frontend state.
+$fp
+Tôi đang gặp vấn đề này: ...
+Giúp tôi làm rõ trước khi chọn giải pháp. Hỏi phần còn thiếu nếu cần.
 ```
 
-Each skill reads the shared method at [`method/CORE.md`](method/CORE.md). The
-skills are explicit-only through their `agents/openai.yaml` policy, perform only
-advisory responses and read-only research, and do not depend on one another or
-on a global FP installation.
+Bạn có thể yêu cầu giải thích trực tiếp, dùng Socratic hoặc 5 Whys, đổi hướng và
+dừng bất cứ lúc nào. FP tư vấn và research chỉ đọc; không tự sửa file, chạy kế
+hoạch, giao việc hoặc ghi memory. Có thể dùng context phù hợp khi host cung cấp,
+nhưng không cần memory để hoạt động.
 
-## Evidence status
+Ba nguồn gốc:
 
-The acceptance fixtures are in [`evals/acceptance.md`](evals/acceptance.md),
-source mapping is in [`evals/provenance.md`](evals/provenance.md), and observed
-results are in [`evals/results.md`](evals/results.md). Structural validation is
-not the same as native behavioral acceptance; read the results before relying
-on a PASS claim.
+- [Untools — First principles](https://untools.co/first-principles/): phân rã vấn đề rồi xây lại hướng giải quyết.
+- [Matt Pocock — productivity skills](https://github.com/mattpocock/skills/tree/main/skills/productivity): tham khảo cách phỏng vấn và hỗ trợ học.
+- [Ghi chú first-principles local](first-principles/): nguồn tham khảo được giữ nguyên; các claim chưa có căn cứ không tự trở thành sự thật.
+
+Nguồn chuẩn nằm ở [skills/fp](skills/fp/SKILL.md), với mọi reference trong cùng
+package. Xem [cách cài/cập nhật](docs/install.md), [trạng thái và ba tình huống thử](STATUS.md). Kế hoạch và bộ kiểm thử lớn trước đây đã
+được thay thế; [chỉ mục lịch sử](docs/history.md) giữ đường dẫn tới bằng chứng cũ.

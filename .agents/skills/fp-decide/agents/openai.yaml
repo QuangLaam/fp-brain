@@ -1,6 +1,0 @@
-interface:
-  display_name: "FP Decide"
-  short_description: "Compare options using priorities and evidence"
-  default_prompt: "Use $fp-decide to compare these options and recommend one."
-policy:
-  allow_implicit_invocation: false

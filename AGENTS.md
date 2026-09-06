@@ -1,15 +1,18 @@
 # FP-Brain repository guidance
 
-This repository contains four explicit, advisory first-principles skills. Keep
-runtime work read-only and side-effect free. A request to build, edit, install,
-execute, delegate, commit, or publish is outside an FP skill and needs separate
-authorization.
+The current product is one explicit advisory skill, `fp`. Its canonical entry is
+`skills/fp/SKILL.md`; all runtime references stay inside `skills/fp/`.
 
-The shared method is [`method/CORE.md`](method/CORE.md). Public skill entrypoints
-are under `.agents/skills/fp-{ask,brainstorm,decide,learn}/`. Each entrypoint
-must reach the core through its repository-relative link and must not depend on
-global FP skills, plugins, hooks, planning files, archives, or another FP skill.
+FP provides advice and read-only research. Writing files, executing experiments,
+installing, committing, publishing or delegating is a separately authorized task
+outside FP. Preserve current user goals, method overrides and stop requests;
+memory is optional and must not be written by FP.
 
-For acceptance work, use [`evals/acceptance.md`](evals/acceptance.md) and record
-actual evidence in `evals/results.md`. Syntax checks, hashes, or simulations do
-not establish native behavioral acceptance.
+Keep maintenance small and reversible. The active guides are `README.md`,
+`docs/install.md` and `STATUS.md`. Do not recreate a custom
+installer, acceptance framework or automatic repair loop for ordinary use.
+
+`plans/`, `evals/` and `method/CORE.md` preserve historical work; see
+`docs/history.md`. Their old plans, runner, budgets and acceptance gates are
+superseded and do not authorize execution. Preserve original notes and raw
+evidence. Report file inspection separately from observed conversation behavior.
