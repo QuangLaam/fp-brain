@@ -12,7 +12,7 @@ Keep maintenance small and reversible. The active guides are `README.md` and
 `docs/install.md`. Do not recreate a custom
 installer, acceptance framework or automatic repair loop for ordinary use.
 
-Preserve the reference notes in `first-principles/`. Historical plans, old skill
-code and test evidence are available in Git; they are not current instructions
+Historical source notes, plans, old skill code and test evidence are available
+in Git; they are not current instructions
 or authorization to resume work. Report file inspection separately from observed
 conversation behavior.

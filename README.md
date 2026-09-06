@@ -18,7 +18,7 @@ Ba nguồn gốc:
 
 - [Untools — First principles](https://untools.co/first-principles/): phân rã vấn đề rồi xây lại hướng giải quyết.
 - [Matt Pocock — productivity skills](https://github.com/mattpocock/skills/tree/main/skills/productivity): tham khảo cách phỏng vấn và hỗ trợ học.
-- [Ghi chú first-principles local](first-principles/): nguồn tham khảo được giữ nguyên; các claim chưa có căn cứ không tự trở thành sự thật.
+- Ghi chú first-principles local: 42 ghi chú nguồn ban đầu có thể truy lại trong Git tại commit `c561a5c`; không phải toàn bộ đã được tích hợp vào FP.
 
 Nguồn chuẩn nằm ở [skills/fp](skills/fp/SKILL.md), với mọi reference trong cùng
 package. Xem [cách cài/cập nhật](docs/install.md).
