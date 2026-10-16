@@ -1,22 +1,53 @@
-# Cài hoặc cập nhật FP
+# Installing and Updating FP
 
-Nguồn chuẩn là thư mục `skills/fp/` trong repo này. Copy nguyên năm file của
-package vào `~/.agents/skills/fp/`; mọi reference đi cùng package. Không cần
-installer riêng, plugin hay cấu hình global bổ sung.
+The canonical source is the `skills/fp/` directory in this repository, containing exactly five Git-tracked files:
+- `SKILL.md`
+- `agents/openai.yaml`
+- `references/core.md`
+- `references/learning-context.md`
+- `references/methods.md`
 
-Nếu target **chưa tồn tại**, chạy từ repo:
+## 1. Target Locations by Host
 
+- **Codex / Universal agents**: `~/.agents/skills/fp/`
+- **Antigravity IDE**: `~/.gemini/config/skills/fp/`
+
+## 2. Installation and Update Steps
+
+Select your target directory `TARGET`:
 ```sh
-mkdir -p "$HOME/.agents/skills"
-cp -R skills/fp "$HOME/.agents/skills/fp"
+TARGET="$HOME/.agents/skills/fp"   # or "$HOME/.gemini/config/skills/fp"
 ```
 
-Nếu target đã tồn tại, kiểm tra thay đổi riêng trước. Giữ một bản backup của
-thư mục hiện tại ở nơi **ngoài** `~/.agents/skills`, rồi thay đúng thư mục `fp`
-bằng bản nguồn đã xem. Không copy lồng thêm `fp/fp`, không ghi đè công việc riêng
-chưa đối chiếu. Muốn khôi phục, thay bản hiện tại bằng backup đó; muốn gỡ, chỉ gỡ
-bản `fp` đã xác định, không đụng skill khác.
+1. **Inspect and backup (if existing target present)**:
+   If `TARGET` already exists, back it up outside the directory before updating:
+   ```sh
+   [ -d "$TARGET" ] && backup_dir="$(mktemp -d /tmp/fp-skill-backup.XXXXXXXX)" && cp -r "$TARGET" "$backup_dir/fp" && printf 'Backup: %s\n' "$backup_dir/fp"
+   ```
 
-Sau copy, mở task mới trong Codex và gọi `$fp`. Nếu host không nạp được skill,
-ghi lỗi thực tế và dừng; thư mục được copy đúng chưa chứng minh hội thoại hoạt
-động. Xem [giới hạn hiện tại](../README.md).
+2. **Copy the five canonical files**:
+   Create target subdirectories and copy each tracked file explicitly (avoiding `cp -R` to prevent OS metadata files such as `.DS_Store`):
+   ```sh
+   mkdir -p "$TARGET/agents" "$TARGET/references"
+   cp skills/fp/SKILL.md "$TARGET/SKILL.md"
+   cp skills/fp/agents/openai.yaml "$TARGET/agents/openai.yaml"
+   cp skills/fp/references/core.md "$TARGET/references/core.md"
+   cp skills/fp/references/learning-context.md "$TARGET/references/learning-context.md"
+   cp skills/fp/references/methods.md "$TARGET/references/methods.md"
+   ```
+
+3. **Verify Content by Comparison**:
+   Ensure all five files match the source repository:
+   ```sh
+   for f in SKILL.md agents/openai.yaml references/core.md references/learning-context.md references/methods.md; do
+     diff -q "skills/fp/$f" "$TARGET/$f" || echo "Mismatch: $f"
+   done
+   ```
+
+## 3. Post-Installation Verification
+
+1. **Discovery check**: Open a fresh session on the host and invoke `$fp`. If the host fails to load the skill, check the installation directory and startup logs.
+2. **Behavioral check**: Ask an exploratory question (e.g., *"I want to improve my workflow but don't know where to start"*). Observe whether FP asks a concrete clarifying question about your specific situation, and verify that it remains strictly advisory without modifying files or executing unauthorized actions.
+
+
+

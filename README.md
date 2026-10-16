@@ -1,31 +1,29 @@
 # FP
 
-FP là một skill tư duy để cùng bạn làm rõ vấn đề, kiểm tra giả định, tìm hướng
-có căn cứ và học ngay trong công việc. Bạn gọi một entry: **`$fp`**.
+FP is an advisory skill for first-principles thinking to clarify problems, test assumptions, develop grounded directions, and learn through work. You invoke a single entrypoint: **`$fp`**.
 
 ```text
 $fp
-Tôi đang gặp vấn đề này: ...
-Giúp tôi làm rõ trước khi chọn giải pháp. Hỏi phần còn thiếu nếu cần.
+I am facing this problem: ...
+Help me clarify before choosing a solution. Ask what is missing if needed.
 ```
 
-Bạn có thể yêu cầu giải thích trực tiếp, dùng Socratic hoặc 5 Whys, đổi hướng và
-dừng bất cứ lúc nào. FP tư vấn và research chỉ đọc; không tự sửa file, chạy kế
-hoạch, giao việc hoặc ghi memory. Có thể dùng context phù hợp khi host cung cấp,
-nhưng không cần memory để hoạt động.
+You can request direct explanation, Socratic questioning, or 5 Whys, redirect, and stop at any time. FP provides advisory reasoning and read-only research; it does not edit files, execute plans, delegate tasks, or write memories. It can use relevant context when provided by the host, but does not require memory to operate.
 
-Ba nguồn gốc:
+The canonical source is at [skills/fp](skills/fp/SKILL.md), consisting of exactly 5 Git-tracked files with all references contained within the package. See [installation and update guide](docs/install.md).
 
-- [Untools — First principles](https://untools.co/first-principles/): phân rã vấn đề rồi xây lại hướng giải quyết.
-- [Matt Pocock — productivity skills](https://github.com/mattpocock/skills/tree/main/skills/productivity): tham khảo cách phỏng vấn và hỗ trợ học.
-- Ghi chú first-principles local: 42 ghi chú nguồn ban đầu có thể truy lại trong Git tại commit `c561a5c`; không phải toàn bộ đã được tích hợp vào FP.
+## Status and Verification Evidence
 
-Nguồn chuẩn nằm ở [skills/fp](skills/fp/SKILL.md), với mọi reference trong cùng
-package. Xem [cách cài/cập nhật](docs/install.md).
+- **Host parity (journal record)**: The journal records a synchronized canonical 5-file package across the repo, Codex (`~/.agents/skills/fp`), and Antigravity (`~/.gemini/config/skills/fp`) with matching SHA-256 hashes, sharing the sole trigger `$fp`.
+- **Codex CLI (journal record, 2026-10-09)**: The journal records testing the historical clarification defect (C1) on `codex-cli 0.159.3` (`gpt-6-astra`) across 3 independent runs. Its independent evaluation reported the defects NOT REPRODUCED on the current runtime.
+- **Scope & limits**: These are journaled results from sampled sessions; behavior in other contexts has not been established by those records.
 
-Bản hiện tại đã gọi được qua CLI. Trong ba lần thử ngắn, một phản hồi làm rõ
-còn thiếu câu hỏi cụ thể và có tiếng Anh thừa; chất lượng chưa được bảo đảm cho
-mọi tình huống. Picker Desktop và mức hữu ích trong công việc thật chưa được đánh giá.
+## Origins
 
-Plan và báo cáo kiểm thử cũ đã được dọn khỏi repo; có thể truy lại trong Git tại
-commit `76b4df2`.
+1. [Untools — First principles](https://untools.co/first-principles/): Deconstruct problems to foundational truths and reconstruct grounded solutions.
+2. Local first-principles notes: 42 foundational research notes recoverable through Git history at commit `c561a5c`; not all have been incorporated into FP.
+
+Historical plans and evaluation reports are preserved in Git history at commits `76b4df2` and `fe07378`.
+
+
+
