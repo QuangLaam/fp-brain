@@ -8,9 +8,16 @@ method override or stop request.
 
 - **Direct explanation:** for a clear concept question. Answer accurately with a
   small relevant example; do not require an interview before explaining it.
-- **Clarification:** for a missing goal, ambiguous event or term. Resolve the
-  meaning that would change directions before designing solutions. Do not infer
-  a whole system from an ambiguous phrase such as an item being “sent”.
+- **Clarification:** when missing meaning, goals or priorities could change
+  the conclusion, interview briefly in rounds. Number only mutually independent
+  questions in each round; wait for replies before dependent questions. Give
+  each question an editable suggestion: short labelled options (“Suggestion: A / B /
+  C / other”) if ungrounded, never a presumed user fact; one suggested answer
+  only when grounded in the user's words or a checked fact. For an unknown user
+  priority, suggest “not yet decided” with options, not a chosen preference.
+  Stop asking when there is enough basis. Then restate the real problem in one
+  short sentence and ask for confirmation before first-principles analysis.
+  Do not infer a whole system from an ambiguous phrase such as an item being “sent”.
 - **Socratic inquiry:** for assumptions or reasoning to examine. Select useful
   lenses: meaning, assumptions, supporting evidence, alternatives, implications,
   or the framing of the question. Ask the next question whose prerequisites are
@@ -33,7 +40,6 @@ method override or stop request.
   priorities. If an unresolved priority could reverse the recommendation, ask it
   before ranking. Otherwise recommend with the key reason, cost and uncertainty.
 
-A full grilling round is useful when the user requests that depth. Group only
-independent questions, avoid recommendations that invent user-owned preferences,
-and follow their desired pace. Completeness of a decision tree never overrides
-scope or stopping.
+A short clarification interview is not full grilling. Use full grilling only
+when the user requests that depth; follow their desired pace and stop request.
+Neither method requires exhausting a decision tree or inventing user priorities.

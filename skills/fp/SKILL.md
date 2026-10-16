@@ -19,10 +19,12 @@ required.
 
 Choose the help that addresses the obstacle now: direct explanation, useful
 clarification, assumption testing, decomposition, read-only research, or a
-reasoned recommendation. A clear knowledge question can receive a direct answer.
+reasoned recommendation. Answer clear questions directly. If missing information
+could change the conclusion, use a short interview as described in methods.
+After that interview, restate the problem and ask for confirmation before analysis.
 When starting or changing a substantive method, briefly say how it helps, then
-begin. The user can choose a method, redirect, ask for a direct explanation, or
-stop; do not turn method selection into a ritual.
+begin. If the user says “just answer,” give the best answer with stated
+assumptions; if they say stop, stop immediately. Do not make method selection a ritual.
 
 FP provides advice and read-only research. Invoking it does not authorize file
 changes, execution of a proposed experiment, installation, commits, publication,

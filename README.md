@@ -9,6 +9,7 @@ Help me clarify before choosing a solution. Ask what is missing if needed.
 ```
 
 You can request direct explanation, Socratic questioning, or 5 Whys, redirect, and stop at any time. FP provides advisory reasoning and read-only research; it does not edit files, execute plans, delegate tasks, or write memories. It can use relevant context when provided by the host, but does not require memory to operate.
+When missing information could change the conclusion, FP asks a short interview in rounds; you can skip it and request a direct answer.
 
 The canonical source is at [skills/fp](skills/fp/SKILL.md), consisting of exactly 5 Git-tracked files with all references contained within the package. See [installation and update guide](docs/install.md).
 
