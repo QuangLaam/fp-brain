@@ -1,0 +1,54 @@
+Source-URL: https://untools.co/first-principles/
+Fetched: 2026-11-18T04:12:28+00:00
+
+untoolsAll toolsAboutTools guide💎 Templates
+First principles
+PROBLEM SOLVING
+Break down complex problems into basic elements and create innovative solutions from there.
+Sometimes also called "reasoning from first principles", it's a powerful tool for problem-solving. Identifying the basic principles of a problem will allow you to come up with innovative solutions.
+First principle is a basic principle or truth that cannot be broken down any further. First-principles thinking is about digging deeper until you arrive at the very foundations of a problem.
+How to use it?
+Start with your problem and take these two steps:
+Break it down to the most basic truths (first principles)
+Re-build a solution from those principles
+It sounds simple but requires some focused thinking to really dig deep in the problem and discover those first principles.
+There are some techniques to help you:
+The Five Whys
+This is a popular technique in user research where a researcher digs deeper by repeatedly asking "why" questions. It enables you to discover the root causes of problems. Of course, you don't have to stop at five, but it's generally enough to discover a first principle.
+Socratic questioning
+A form of disciplined questioning that enables critical thinking. There are six types of questions you can ask to dig deeper for the fundamental truth:
+Clarification – "What do you mean by...?"
+Probing assumptions – "What could we assume instead?"
+Probing reasons/evidence – "Why do you think this is true?"
+Implications and consequences – "What effect would that have?"
+Different viewpoints – "What would be an alternative?"
+Questioning the original question – "What was the point of this question?"
+First principles in practice
+Let's see first-principles thinking in action. Here's a nice example from Wes O'Haire, designer at Dropbox:
+"I did this on a project last year where we started with our problem statement. From there, I broke it down into its fundamental parts, then addressed each part, and reconfigured it to build up a solution."
+Sources
+"Mental models for designers" by Wes O'Haire
+"First Principles: The Building Blocks of True Knowledge" by Shane Parrish
+Share this tool
+Copy link
+Share on Twitter
+More problem solving tools
+Abstraction laddering
+PROBLEM SOLVING
+Frame your problem better with different levels of abstraction.
+Issue trees
+PROBLEM SOLVING
+Structure and solve problems in a systematic way.
+💎 Complete thinking toolkit for tech leaders, consultants and founders
+Get lifetime access to over 20 thinking tool templates, exclusive deep-dives, and future updates. No recurring payments.
+✓ 20 templates in PDF, Miro or Notion✓ Member-only guides & deep-dives✓ One-time payment, no subscription
+Explore the Vault
+📫 Join 19,500+ thinkers
+Get 3 free thinking tool templates + join over 19,500 people who get practical frameworks delivered every two weeks.
+ℹ️ About Untools
+Collection of thinking tools and frameworks to help you solve problems, make decisions and understand systems.
+More about Untools
+Do you have feedback or want to suggest a tool?
+Reach out on Twitter!
+© 2026, Untools
+Privacy PolicyCookies

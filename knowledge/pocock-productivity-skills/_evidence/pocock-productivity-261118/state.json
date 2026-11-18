@@ -1,0 +1,19 @@
+{
+  "run_id": "pocock-productivity-261118",
+  "round": 0,
+  "status": "RUNNING",
+  "budget_used": 7,
+  "budget_total": 40,
+  "remaining_budget_calls": 33,
+  "gaps": [],
+  "resolved": [],
+  "required_claim_ids": [],
+  "minimum_independent_sources": 2,
+  "last_weighted_delta": 0.2857142857142857,
+  "researcher_runtime": "claude-fable-5-2",
+  "consecutive_low_delta_rounds": 0,
+  "version_applicability": "not_applicable",
+  "version_reason": "pack describes prose skill instructions at one pinned commit: no target library or framework version",
+  "execution_applicability": "not_applicable",
+  "execution_reason": "the sources are prose instructions for agents with no executable code"
+}

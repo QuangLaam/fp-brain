@@ -1,0 +1,861 @@
+[
+  {
+    "id": "a-level-or-two-deeper-has-value",
+    "path": "claims/a-level-or-two-deeper-has-value.md",
+    "sha256": "3a06cab046bf8d5dc4f988dd9f8c7c4180639b12a0ebbfb07aaf62051d91a05d",
+    "ontology_sha256": "14348c6006cd3a8e16444da99df32d678c69c85a57204a3e939b53f487cc8c30",
+    "object_type": "claim",
+    "superseded_by": null,
+    "domain": null,
+    "trust_tier": null,
+    "when": null,
+    "description": null,
+    "status": "active",
+    "links_out": [
+      {
+        "link_type": "supported-by",
+        "target_id": "fs-blog-2018-04-first-principles"
+      }
+    ],
+    "links_in": [
+      {
+        "link_type": "cites",
+        "source_id": "first-principles-thinking"
+      }
+    ],
+    "source_count": 1,
+    "evidence_age_days": 0,
+    "links_in_count": 1
+  },
+  {
+    "id": "a-level-or-two-deeper-is-enough",
+    "path": "claims/a-level-or-two-deeper-is-enough.md",
+    "sha256": "2da6aeac1ea85ff13b33b1d3e1e9ee6d8ff46e48a0756f15f54ca01ab211faf6",
+    "ontology_sha256": "14348c6006cd3a8e16444da99df32d678c69c85a57204a3e939b53f487cc8c30",
+    "object_type": "claim",
+    "superseded_by": "a-level-or-two-deeper-has-value",
+    "domain": null,
+    "trust_tier": null,
+    "when": null,
+    "description": null,
+    "status": "deprecated",
+    "links_out": [
+      {
+        "link_type": "supported-by",
+        "target_id": "fs-blog-2018-04-first-principles"
+      }
+    ],
+    "links_in": [],
+    "source_count": 1,
+    "evidence_age_days": 0,
+    "links_in_count": 0
+  },
+  {
+    "id": "analogies-limit-what-seems-possible",
+    "path": "claims/analogies-limit-what-seems-possible.md",
+    "sha256": "d5a36cef9e9fdbf3c5536d7c99a33d5dbb1695d197664d4b42ceab6072bc9bb6",
+    "ontology_sha256": "14348c6006cd3a8e16444da99df32d678c69c85a57204a3e939b53f487cc8c30",
+    "object_type": "claim",
+    "superseded_by": null,
+    "domain": null,
+    "trust_tier": null,
+    "when": null,
+    "description": null,
+    "status": "active",
+    "links_out": [
+      {
+        "link_type": "supported-by",
+        "target_id": "fs-blog-2018-04-first-principles"
+      }
+    ],
+    "links_in": [
+      {
+        "link_type": "cites",
+        "source_id": "first-principles-thinking"
+      }
+    ],
+    "source_count": 1,
+    "evidence_age_days": 0,
+    "links_in_count": 1
+  },
+  {
+    "id": "break-down-to-basic-truths",
+    "path": "claims/break-down-to-basic-truths.md",
+    "sha256": "6d0243990051b99fc266745dc3799af452e68054b83a183d2e8e0b038c74e8ab",
+    "ontology_sha256": "14348c6006cd3a8e16444da99df32d678c69c85a57204a3e939b53f487cc8c30",
+    "object_type": "claim",
+    "superseded_by": null,
+    "domain": null,
+    "trust_tier": null,
+    "when": null,
+    "description": null,
+    "status": "active",
+    "links_out": [
+      {
+        "link_type": "supported-by",
+        "target_id": "untools-co-first-principles"
+      },
+      {
+        "link_type": "supported-by",
+        "target_id": "fs-blog-2018-04-first-principles"
+      }
+    ],
+    "links_in": [
+      {
+        "link_type": "cites",
+        "source_id": "first-principles-thinking"
+      }
+    ],
+    "source_count": 2,
+    "evidence_age_days": 0,
+    "links_in_count": 1
+  },
+  {
+    "id": "dropbox-design-example",
+    "path": "claims/dropbox-design-example.md",
+    "sha256": "863e3739afe993fe55e32d94adb7f846813f07b131a35c04d34fe472647ee5e4",
+    "ontology_sha256": "14348c6006cd3a8e16444da99df32d678c69c85a57204a3e939b53f487cc8c30",
+    "object_type": "claim",
+    "superseded_by": null,
+    "domain": null,
+    "trust_tier": null,
+    "when": null,
+    "description": null,
+    "status": "active",
+    "links_out": [
+      {
+        "link_type": "supported-by",
+        "target_id": "untools-co-first-principles"
+      }
+    ],
+    "links_in": [
+      {
+        "link_type": "cites",
+        "source_id": "first-principles-thinking"
+      }
+    ],
+    "source_count": 1,
+    "evidence_age_days": 0,
+    "links_in_count": 1
+  },
+  {
+    "id": "first-principle-is-irreducible-truth",
+    "path": "claims/first-principle-is-irreducible-truth.md",
+    "sha256": "486ac67c40f841195739fd894bbf29fca052d0aa455a9468ba11e7cd5adb1e67",
+    "ontology_sha256": "14348c6006cd3a8e16444da99df32d678c69c85a57204a3e939b53f487cc8c30",
+    "object_type": "claim",
+    "superseded_by": null,
+    "domain": null,
+    "trust_tier": null,
+    "when": null,
+    "description": null,
+    "status": "active",
+    "links_out": [
+      {
+        "link_type": "supported-by",
+        "target_id": "untools-co-first-principles"
+      }
+    ],
+    "links_in": [
+      {
+        "link_type": "cites",
+        "source_id": "first-principles-thinking"
+      }
+    ],
+    "source_count": 1,
+    "evidence_age_days": 0,
+    "links_in_count": 1
+  },
+  {
+    "id": "first-principles-evolve-with-knowledge",
+    "path": "claims/first-principles-evolve-with-knowledge.md",
+    "sha256": "5be9028a16f6a8b9a34d50c429dfb39f9d989599875334040281af6d2ba31aea",
+    "ontology_sha256": "14348c6006cd3a8e16444da99df32d678c69c85a57204a3e939b53f487cc8c30",
+    "object_type": "claim",
+    "superseded_by": "understanding-of-first-principles-evolves",
+    "domain": null,
+    "trust_tier": null,
+    "when": null,
+    "description": null,
+    "status": "deprecated",
+    "links_out": [
+      {
+        "link_type": "supported-by",
+        "target_id": "fs-blog-2018-04-first-principles"
+      }
+    ],
+    "links_in": [],
+    "source_count": 1,
+    "evidence_age_days": 0,
+    "links_in_count": 0
+  },
+  {
+    "id": "five-is-not-a-fixed-count",
+    "path": "claims/five-is-not-a-fixed-count.md",
+    "sha256": "429b175ff8cf5d0d16faac76e85604fdf2aa375e9c39a121f399812f99b6a425",
+    "ontology_sha256": "14348c6006cd3a8e16444da99df32d678c69c85a57204a3e939b53f487cc8c30",
+    "object_type": "claim",
+    "superseded_by": null,
+    "domain": null,
+    "trust_tier": null,
+    "when": null,
+    "description": null,
+    "status": "active",
+    "links_out": [
+      {
+        "link_type": "supported-by",
+        "target_id": "untools-co-first-principles"
+      }
+    ],
+    "links_in": [
+      {
+        "link_type": "cites",
+        "source_id": "first-principles-thinking"
+      }
+    ],
+    "source_count": 1,
+    "evidence_age_days": 0,
+    "links_in_count": 1
+  },
+  {
+    "id": "five-whys-finds-root-causes",
+    "path": "claims/five-whys-finds-root-causes.md",
+    "sha256": "68ce6405fa9b99edaa2b16a1a0b9994e02d447764398021d26844f5f3e9d8c6e",
+    "ontology_sha256": "14348c6006cd3a8e16444da99df32d678c69c85a57204a3e939b53f487cc8c30",
+    "object_type": "claim",
+    "superseded_by": null,
+    "domain": null,
+    "trust_tier": null,
+    "when": null,
+    "description": null,
+    "status": "active",
+    "links_out": [
+      {
+        "link_type": "supported-by",
+        "target_id": "untools-co-first-principles"
+      }
+    ],
+    "links_in": [
+      {
+        "link_type": "cites",
+        "source_id": "first-principles-thinking"
+      }
+    ],
+    "source_count": 1,
+    "evidence_age_days": 0,
+    "links_in_count": 1
+  },
+  {
+    "id": "five-whys-repeats-why",
+    "path": "claims/five-whys-repeats-why.md",
+    "sha256": "d1814e386b4a2a9b574f68b535d04dcb38e6e7e1e687dbd1b71b5505424eb9d4",
+    "ontology_sha256": "14348c6006cd3a8e16444da99df32d678c69c85a57204a3e939b53f487cc8c30",
+    "object_type": "claim",
+    "superseded_by": null,
+    "domain": null,
+    "trust_tier": null,
+    "when": null,
+    "description": null,
+    "status": "active",
+    "links_out": [
+      {
+        "link_type": "supported-by",
+        "target_id": "untools-co-first-principles"
+      }
+    ],
+    "links_in": [
+      {
+        "link_type": "cites",
+        "source_id": "first-principles-thinking"
+      }
+    ],
+    "source_count": 1,
+    "evidence_age_days": 0,
+    "links_in_count": 1
+  },
+  {
+    "id": "irreducible-in-context-not-absolute",
+    "path": "claims/irreducible-in-context-not-absolute.md",
+    "sha256": "48dfc66402eee1a11ff6e753bb4eea813f2f9a0245c3e1aa8e82da4d8120ee43",
+    "ontology_sha256": "14348c6006cd3a8e16444da99df32d678c69c85a57204a3e939b53f487cc8c30",
+    "object_type": "claim",
+    "superseded_by": "irreducible-in-context",
+    "domain": null,
+    "trust_tier": null,
+    "when": null,
+    "description": null,
+    "status": "deprecated",
+    "links_out": [
+      {
+        "link_type": "supported-by",
+        "target_id": "fs-blog-2018-04-first-principles"
+      }
+    ],
+    "links_in": [],
+    "source_count": 1,
+    "evidence_age_days": 0,
+    "links_in_count": 0
+  },
+  {
+    "id": "irreducible-in-context",
+    "path": "claims/irreducible-in-context.md",
+    "sha256": "73df6486a7f81f5f8b3a779388e72024760bc6bb3e5aace4dbdacf7c24296456",
+    "ontology_sha256": "14348c6006cd3a8e16444da99df32d678c69c85a57204a3e939b53f487cc8c30",
+    "object_type": "claim",
+    "superseded_by": null,
+    "domain": null,
+    "trust_tier": null,
+    "when": null,
+    "description": null,
+    "status": "active",
+    "links_out": [
+      {
+        "link_type": "supported-by",
+        "target_id": "fs-blog-2018-04-first-principles"
+      }
+    ],
+    "links_in": [
+      {
+        "link_type": "cites",
+        "source_id": "first-principles-thinking"
+      }
+    ],
+    "source_count": 1,
+    "evidence_age_days": 0,
+    "links_in_count": 1
+  },
+  {
+    "id": "not-necessarily-absolute-truths",
+    "path": "claims/not-necessarily-absolute-truths.md",
+    "sha256": "37587d1e61a37122b2cf182867e8786f59a616ea1efb6a68d1bf56a636fbe6ab",
+    "ontology_sha256": "14348c6006cd3a8e16444da99df32d678c69c85a57204a3e939b53f487cc8c30",
+    "object_type": "claim",
+    "superseded_by": null,
+    "domain": null,
+    "trust_tier": null,
+    "when": null,
+    "description": null,
+    "status": "active",
+    "links_out": [
+      {
+        "link_type": "supported-by",
+        "target_id": "fs-blog-2018-04-first-principles"
+      }
+    ],
+    "links_in": [
+      {
+        "link_type": "cites",
+        "source_id": "first-principles-thinking"
+      }
+    ],
+    "source_count": 1,
+    "evidence_age_days": 0,
+    "links_in_count": 1
+  },
+  {
+    "id": "rebuild-solution-from-principles",
+    "path": "claims/rebuild-solution-from-principles.md",
+    "sha256": "fcd0c47add3355e5b7d11daa0a74f72b0b7190bc9de8136b47bd5115be912328",
+    "ontology_sha256": "14348c6006cd3a8e16444da99df32d678c69c85a57204a3e939b53f487cc8c30",
+    "object_type": "claim",
+    "superseded_by": null,
+    "domain": null,
+    "trust_tier": null,
+    "when": null,
+    "description": null,
+    "status": "active",
+    "links_out": [
+      {
+        "link_type": "supported-by",
+        "target_id": "untools-co-first-principles"
+      }
+    ],
+    "links_in": [
+      {
+        "link_type": "cites",
+        "source_id": "first-principles-thinking"
+      }
+    ],
+    "source_count": 1,
+    "evidence_age_days": 0,
+    "links_in_count": 1
+  },
+  {
+    "id": "requires-focused-thinking",
+    "path": "claims/requires-focused-thinking.md",
+    "sha256": "d7e593d59798ac2c8c98e36be6585ccac696165646b927295568a36baa829769",
+    "ontology_sha256": "14348c6006cd3a8e16444da99df32d678c69c85a57204a3e939b53f487cc8c30",
+    "object_type": "claim",
+    "superseded_by": null,
+    "domain": null,
+    "trust_tier": null,
+    "when": null,
+    "description": null,
+    "status": "active",
+    "links_out": [
+      {
+        "link_type": "supported-by",
+        "target_id": "untools-co-first-principles"
+      }
+    ],
+    "links_in": [
+      {
+        "link_type": "cites",
+        "source_id": "first-principles-thinking"
+      }
+    ],
+    "source_count": 1,
+    "evidence_age_days": 0,
+    "links_in_count": 1
+  },
+  {
+    "id": "separate-truth-from-assumption",
+    "path": "claims/separate-truth-from-assumption.md",
+    "sha256": "61ada2429a6c296e5f3541446f9ac4a33850af1d5757559c483af561f8c2e532",
+    "ontology_sha256": "14348c6006cd3a8e16444da99df32d678c69c85a57204a3e939b53f487cc8c30",
+    "object_type": "claim",
+    "superseded_by": null,
+    "domain": null,
+    "trust_tier": null,
+    "when": null,
+    "description": null,
+    "status": "active",
+    "links_out": [
+      {
+        "link_type": "supported-by",
+        "target_id": "fs-blog-2018-04-first-principles"
+      }
+    ],
+    "links_in": [
+      {
+        "link_type": "cites",
+        "source_id": "first-principles-thinking"
+      }
+    ],
+    "source_count": 1,
+    "evidence_age_days": 0,
+    "links_in_count": 1
+  },
+  {
+    "id": "socratic-and-five-whys-are-two-techniques",
+    "path": "claims/socratic-and-five-whys-are-two-techniques.md",
+    "sha256": "9087696c56844403f1c7ad36b557e64ab32baf3ac5e2b3ce3d52c9dac571fbc5",
+    "ontology_sha256": "14348c6006cd3a8e16444da99df32d678c69c85a57204a3e939b53f487cc8c30",
+    "object_type": "claim",
+    "superseded_by": null,
+    "domain": null,
+    "trust_tier": null,
+    "when": null,
+    "description": null,
+    "status": "active",
+    "links_out": [
+      {
+        "link_type": "supported-by",
+        "target_id": "fs-blog-2018-04-first-principles"
+      }
+    ],
+    "links_in": [
+      {
+        "link_type": "cites",
+        "source_id": "first-principles-thinking"
+      }
+    ],
+    "source_count": 1,
+    "evidence_age_days": 0,
+    "links_in_count": 1
+  },
+  {
+    "id": "socratic-questioning-digs-to-fundamentals",
+    "path": "claims/socratic-questioning-digs-to-fundamentals.md",
+    "sha256": "f05552f2a093276665fd2e4c5e8bf34e677e89cc76087a42f98902451e21d0b5",
+    "ontology_sha256": "14348c6006cd3a8e16444da99df32d678c69c85a57204a3e939b53f487cc8c30",
+    "object_type": "claim",
+    "superseded_by": "socratic-six-question-types",
+    "domain": null,
+    "trust_tier": null,
+    "when": null,
+    "description": null,
+    "status": "deprecated",
+    "links_out": [
+      {
+        "link_type": "supported-by",
+        "target_id": "untools-co-first-principles"
+      },
+      {
+        "link_type": "supported-by",
+        "target_id": "fs-blog-2018-04-first-principles"
+      }
+    ],
+    "links_in": [],
+    "source_count": 2,
+    "evidence_age_days": 0,
+    "links_in_count": 0
+  },
+  {
+    "id": "socratic-questioning-establishes-first-principles",
+    "path": "claims/socratic-questioning-establishes-first-principles.md",
+    "sha256": "e55c8411318cb42c52e8ea09cd44219139060b0420119e1b7cc496dbd275105a",
+    "ontology_sha256": "14348c6006cd3a8e16444da99df32d678c69c85a57204a3e939b53f487cc8c30",
+    "object_type": "claim",
+    "superseded_by": null,
+    "domain": null,
+    "trust_tier": null,
+    "when": null,
+    "description": null,
+    "status": "active",
+    "links_out": [
+      {
+        "link_type": "supported-by",
+        "target_id": "fs-blog-2018-04-first-principles"
+      }
+    ],
+    "links_in": [
+      {
+        "link_type": "cites",
+        "source_id": "first-principles-thinking"
+      }
+    ],
+    "source_count": 1,
+    "evidence_age_days": 0,
+    "links_in_count": 1
+  },
+  {
+    "id": "socratic-six-question-types",
+    "path": "claims/socratic-six-question-types.md",
+    "sha256": "30b66d90da9b41af568834ee9211f14ab918be8fd865a96bd8c74d694d8bfa8a",
+    "ontology_sha256": "14348c6006cd3a8e16444da99df32d678c69c85a57204a3e939b53f487cc8c30",
+    "object_type": "claim",
+    "superseded_by": null,
+    "domain": null,
+    "trust_tier": null,
+    "when": null,
+    "description": null,
+    "status": "active",
+    "links_out": [
+      {
+        "link_type": "supported-by",
+        "target_id": "untools-co-first-principles"
+      }
+    ],
+    "links_in": [
+      {
+        "link_type": "cites",
+        "source_id": "first-principles-thinking"
+      }
+    ],
+    "source_count": 1,
+    "evidence_age_days": 0,
+    "links_in_count": 1
+  },
+  {
+    "id": "two-techniques-socratic-and-five-whys",
+    "path": "claims/two-techniques-socratic-and-five-whys.md",
+    "sha256": "2d7c4d3dfbe95ec067767cff3cfd5911e415961a01e241e9e13ca4cac7a3fab4",
+    "ontology_sha256": "14348c6006cd3a8e16444da99df32d678c69c85a57204a3e939b53f487cc8c30",
+    "object_type": "claim",
+    "superseded_by": "socratic-and-five-whys-are-two-techniques",
+    "domain": null,
+    "trust_tier": null,
+    "when": null,
+    "description": null,
+    "status": "deprecated",
+    "links_out": [
+      {
+        "link_type": "supported-by",
+        "target_id": "fs-blog-2018-04-first-principles"
+      }
+    ],
+    "links_in": [],
+    "source_count": 1,
+    "evidence_age_days": 0,
+    "links_in_count": 0
+  },
+  {
+    "id": "understanding-of-first-principles-evolves",
+    "path": "claims/understanding-of-first-principles-evolves.md",
+    "sha256": "ec4c77a60f324acefd403f32cec71811e4bb0f625c9c204fe23084ff250234c7",
+    "ontology_sha256": "14348c6006cd3a8e16444da99df32d678c69c85a57204a3e939b53f487cc8c30",
+    "object_type": "claim",
+    "superseded_by": null,
+    "domain": null,
+    "trust_tier": null,
+    "when": null,
+    "description": null,
+    "status": "active",
+    "links_out": [
+      {
+        "link_type": "supported-by",
+        "target_id": "fs-blog-2018-04-first-principles"
+      }
+    ],
+    "links_in": [
+      {
+        "link_type": "cites",
+        "source_id": "first-principles-thinking"
+      }
+    ],
+    "source_count": 1,
+    "evidence_age_days": 0,
+    "links_in_count": 1
+  },
+  {
+    "id": "untested-assumptions-bind-to-convention",
+    "path": "claims/untested-assumptions-bind-to-convention.md",
+    "sha256": "262ecd117dc2e0ed6742fcefc59f1ac35bc282ed2c50629c717f63088ad11bbe",
+    "ontology_sha256": "14348c6006cd3a8e16444da99df32d678c69c85a57204a3e939b53f487cc8c30",
+    "object_type": "claim",
+    "superseded_by": null,
+    "domain": null,
+    "trust_tier": null,
+    "when": null,
+    "description": null,
+    "status": "active",
+    "links_out": [
+      {
+        "link_type": "supported-by",
+        "target_id": "fs-blog-2018-04-first-principles"
+      }
+    ],
+    "links_in": [
+      {
+        "link_type": "cites",
+        "source_id": "first-principles-thinking"
+      }
+    ],
+    "source_count": 1,
+    "evidence_age_days": 0,
+    "links_in_count": 1
+  },
+  {
+    "id": "first-principles-thinking",
+    "path": "first-principles-thinking.md",
+    "sha256": "6c22fdec5fb75a7539cb0fdfdab2c467640950df012e4f3b0baaf677565a0d23",
+    "ontology_sha256": "14348c6006cd3a8e16444da99df32d678c69c85a57204a3e939b53f487cc8c30",
+    "object_type": "concept",
+    "superseded_by": null,
+    "domain": "thinking",
+    "trust_tier": "draft",
+    "when": [
+      "reframing a problem that convention or analogy has made look fixed",
+      "choosing a technique to dig below stated assumptions"
+    ],
+    "description": "What first principles thinking is, the two-step method, the two techniques that reach first principles, and how it fails.",
+    "status": "experimental",
+    "links_out": [
+      {
+        "link_type": "cites",
+        "target_id": "requires-focused-thinking"
+      },
+      {
+        "link_type": "cites",
+        "target_id": "first-principle-is-irreducible-truth"
+      },
+      {
+        "link_type": "cites",
+        "target_id": "separate-truth-from-assumption"
+      },
+      {
+        "link_type": "cites",
+        "target_id": "break-down-to-basic-truths"
+      },
+      {
+        "link_type": "cites",
+        "target_id": "rebuild-solution-from-principles"
+      },
+      {
+        "link_type": "cites",
+        "target_id": "five-whys-finds-root-causes"
+      },
+      {
+        "link_type": "cites",
+        "target_id": "five-is-not-a-fixed-count"
+      },
+      {
+        "link_type": "cites",
+        "target_id": "dropbox-design-example"
+      },
+      {
+        "link_type": "cites",
+        "target_id": "untested-assumptions-bind-to-convention"
+      },
+      {
+        "link_type": "cites",
+        "target_id": "analogies-limit-what-seems-possible"
+      },
+      {
+        "link_type": "cites",
+        "target_id": "a-level-or-two-deeper-has-value"
+      },
+      {
+        "link_type": "cites",
+        "target_id": "irreducible-in-context"
+      },
+      {
+        "link_type": "cites",
+        "target_id": "not-necessarily-absolute-truths"
+      },
+      {
+        "link_type": "cites",
+        "target_id": "understanding-of-first-principles-evolves"
+      },
+      {
+        "link_type": "cites",
+        "target_id": "socratic-and-five-whys-are-two-techniques"
+      },
+      {
+        "link_type": "cites",
+        "target_id": "five-whys-repeats-why"
+      },
+      {
+        "link_type": "cites",
+        "target_id": "socratic-questioning-establishes-first-principles"
+      },
+      {
+        "link_type": "cites",
+        "target_id": "socratic-six-question-types"
+      }
+    ],
+    "links_in": [],
+    "source_count": 2,
+    "evidence_age_days": 0,
+    "links_in_count": 0
+  },
+  {
+    "id": "fs-blog-2018-04-first-principles",
+    "path": "sources/fs-blog-2018-04-first-principles.md",
+    "sha256": "260c68c8433515585925871ecbfeebb8b0af02da021a251aeb90583d003d225d",
+    "ontology_sha256": "14348c6006cd3a8e16444da99df32d678c69c85a57204a3e939b53f487cc8c30",
+    "object_type": "source",
+    "superseded_by": null,
+    "domain": null,
+    "trust_tier": null,
+    "when": null,
+    "description": null,
+    "status": "experimental",
+    "links_out": [],
+    "links_in": [
+      {
+        "link_type": "supported-by",
+        "source_id": "a-level-or-two-deeper-has-value"
+      },
+      {
+        "link_type": "supported-by",
+        "source_id": "a-level-or-two-deeper-is-enough"
+      },
+      {
+        "link_type": "supported-by",
+        "source_id": "analogies-limit-what-seems-possible"
+      },
+      {
+        "link_type": "supported-by",
+        "source_id": "break-down-to-basic-truths"
+      },
+      {
+        "link_type": "supported-by",
+        "source_id": "first-principles-evolve-with-knowledge"
+      },
+      {
+        "link_type": "supported-by",
+        "source_id": "irreducible-in-context"
+      },
+      {
+        "link_type": "supported-by",
+        "source_id": "irreducible-in-context-not-absolute"
+      },
+      {
+        "link_type": "supported-by",
+        "source_id": "not-necessarily-absolute-truths"
+      },
+      {
+        "link_type": "supported-by",
+        "source_id": "separate-truth-from-assumption"
+      },
+      {
+        "link_type": "supported-by",
+        "source_id": "socratic-and-five-whys-are-two-techniques"
+      },
+      {
+        "link_type": "supported-by",
+        "source_id": "socratic-questioning-digs-to-fundamentals"
+      },
+      {
+        "link_type": "supported-by",
+        "source_id": "socratic-questioning-establishes-first-principles"
+      },
+      {
+        "link_type": "supported-by",
+        "source_id": "two-techniques-socratic-and-five-whys"
+      },
+      {
+        "link_type": "supported-by",
+        "source_id": "understanding-of-first-principles-evolves"
+      },
+      {
+        "link_type": "supported-by",
+        "source_id": "untested-assumptions-bind-to-convention"
+      }
+    ],
+    "source_count": 1,
+    "evidence_age_days": 0,
+    "links_in_count": 15
+  },
+  {
+    "id": "untools-co-first-principles",
+    "path": "sources/untools-co-first-principles.md",
+    "sha256": "5b101d46e73bc089b0be8aee4a9b3080c4e3df69d7222e08409c18b4ad627eea",
+    "ontology_sha256": "14348c6006cd3a8e16444da99df32d678c69c85a57204a3e939b53f487cc8c30",
+    "object_type": "source",
+    "superseded_by": null,
+    "domain": null,
+    "trust_tier": null,
+    "when": null,
+    "description": null,
+    "status": "experimental",
+    "links_out": [],
+    "links_in": [
+      {
+        "link_type": "supported-by",
+        "source_id": "break-down-to-basic-truths"
+      },
+      {
+        "link_type": "supported-by",
+        "source_id": "dropbox-design-example"
+      },
+      {
+        "link_type": "supported-by",
+        "source_id": "first-principle-is-irreducible-truth"
+      },
+      {
+        "link_type": "supported-by",
+        "source_id": "five-is-not-a-fixed-count"
+      },
+      {
+        "link_type": "supported-by",
+        "source_id": "five-whys-finds-root-causes"
+      },
+      {
+        "link_type": "supported-by",
+        "source_id": "five-whys-repeats-why"
+      },
+      {
+        "link_type": "supported-by",
+        "source_id": "rebuild-solution-from-principles"
+      },
+      {
+        "link_type": "supported-by",
+        "source_id": "requires-focused-thinking"
+      },
+      {
+        "link_type": "supported-by",
+        "source_id": "socratic-questioning-digs-to-fundamentals"
+      },
+      {
+        "link_type": "supported-by",
+        "source_id": "socratic-six-question-types"
+      }
+    ],
+    "source_count": 1,
+    "evidence_age_days": 0,
+    "links_in_count": 10
+  }
+]

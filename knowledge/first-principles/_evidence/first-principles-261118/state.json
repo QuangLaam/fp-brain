@@ -1,0 +1,19 @@
+{
+  "run_id": "first-principles-261118",
+  "round": 0,
+  "status": "RUNNING",
+  "budget_used": 2,
+  "budget_total": 40,
+  "remaining_budget_calls": 38,
+  "gaps": [],
+  "resolved": [],
+  "required_claim_ids": [],
+  "minimum_independent_sources": 2,
+  "last_weighted_delta": 1.125,
+  "researcher_runtime": "claude-fable-5-2",
+  "consecutive_low_delta_rounds": 0,
+  "version_applicability": "not_applicable",
+  "version_reason": "concept pack about a thinking method: no target library or framework",
+  "execution_applicability": "not_applicable",
+  "execution_reason": "the topic is a reasoning method with no executable code"
+}

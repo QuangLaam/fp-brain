@@ -1,0 +1,29 @@
+{
+  "reviewer_runtime": "claude-opus-5-5",
+  "verdict": "pass",
+  "note": "Re-review after revision: 18 active claims, 19 quotes verbatim; statements and all 18 anchored sentences stay within their quotes; prior overreach fixed",
+  "reviewed_at": "2026-11-18T04:16:01+00:00",
+  "ledger_sha256": "91eb8d1ed5d4a7bac7e7950c527626aa50e619871343eac92a64cf87628cbb43",
+  "captures_sha256": "53e20f977af00ddd8c3fe569db9bd82052cb518fbb3bc624ae5c8335ab8d37b7",
+  "claims_sha256": "53094fe630624a7e305173adb8ce99a45169c08b43561d9f9053ae40d322c051",
+  "confirm_version_na": true,
+  "confirm_execution_na": true,
+  "sources": [
+    {
+      "url": "https://untools.co/first-principles/",
+      "path": "_evidence/first-principles-261118/sources/untools-first-principles.txt",
+      "status": "ok",
+      "quotes_found": 10,
+      "quotes_total": 10,
+      "missing_atoms": []
+    },
+    {
+      "url": "https://fs.blog/2018/04/first-principles/",
+      "path": "_evidence/first-principles-261118/sources/fs-first-principles.txt",
+      "status": "ok",
+      "quotes_found": 15,
+      "quotes_total": 15,
+      "missing_atoms": []
+    }
+  ]
+}

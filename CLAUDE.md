@@ -1,11 +1,9 @@
-# CLAUDE.md
-
-FP is an advisory skill for first-principles thinking. It is invoked with the single entry point `$fp` in Codex. It is a Markdown and YAML package with no runtime code. It provides advisory reasoning and read-only research, and does not edit files or write memories. The canonical source is `skills/fp/`, which is exactly 5 Git-tracked files.
 
 ## Main directories
 - `skills/fp/`: canonical skill package. Contains `SKILL.md`, `agents/openai.yaml`, and `references/` (`core.md`, `learning-context.md`, `methods.md`).
 - `docs/`: `install.md`, the installation and update guide.
 - Root `AGENTS.md`: project instructions for maintaining the package.
+- `knowledge/`: evidence packs (`first-principles`, `pocock-productivity-skills`) built with the `es-knowledge-forge` skill. Not part of the skill package; FP reads them only when the working directory has them. See "Knowledge packs" in `AGENTS.md`.
 
 ## Commands
 - No install, build or test commands. The README states that no build command or dependency setup is required.
@@ -13,14 +11,11 @@ FP is an advisory skill for first-principles thinking. It is invoked with the si
 - After changing repo instructions, start a fresh Codex chat in this folder to confirm the updated guidance loads.
 
 ## Rules from the project docs
-- Keep `skills/fp/` at exactly 5 Git-tracked files, with all references inside the package.
+- Keep `skills/fp/` at exactly 5 Git-tracked files, with all required references inside the package.
 - Do not import upstream skill dependencies or file-writing behavior into FP.
+- Before changing FP's method content, read the matching pack document in `knowledge/` and its cited claims. `skills/fp/` may mention `knowledge/` only as an optional read; it must work without it.
+- Do not hand-edit pack claims, sources, `_evidence/`, `_actions/` or `index.json`; use the knowledge builder CLI.
 
-# CLAUDE.md
-
-Behavioral guidelines to reduce common LLM coding mistakes. Merge with project-specific instructions as needed.
-
-**Tradeoff:** These guidelines bias toward caution over speed. For trivial tasks, use judgment.
 
 ## 1. Think Before Coding
 

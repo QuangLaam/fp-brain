@@ -1,0 +1,1192 @@
+[
+  {
+    "id": "ask-whole-frontier-with-recommended-answers",
+    "path": "claims/ask-whole-frontier-with-recommended-answers.md",
+    "sha256": "c926c9a079307d9eca9ac7a5792fb91863db7b8b1d3d63245927489e76e8275a",
+    "ontology_sha256": "14348c6006cd3a8e16444da99df32d678c69c85a57204a3e939b53f487cc8c30",
+    "object_type": "claim",
+    "superseded_by": null,
+    "domain": null,
+    "trust_tier": null,
+    "when": null,
+    "description": null,
+    "status": "active",
+    "links_out": [
+      {
+        "link_type": "supported-by",
+        "target_id": "raw-githubusercontent-com-mattpocock-skills"
+      }
+    ],
+    "links_in": [
+      {
+        "link_type": "cites",
+        "source_id": "interviewing-and-teaching-patterns"
+      }
+    ],
+    "source_count": 1,
+    "evidence_age_days": 0,
+    "links_in_count": 1
+  },
+  {
+    "id": "bad-mission-worse-than-none",
+    "path": "claims/bad-mission-worse-than-none.md",
+    "sha256": "62c475c7b10bf1b6b95f24d8d74eaa0eca0823f0de64313cbe2dacf84c26df67",
+    "ontology_sha256": "14348c6006cd3a8e16444da99df32d678c69c85a57204a3e939b53f487cc8c30",
+    "object_type": "claim",
+    "superseded_by": null,
+    "domain": null,
+    "trust_tier": null,
+    "when": null,
+    "description": null,
+    "status": "active",
+    "links_out": [
+      {
+        "link_type": "supported-by",
+        "target_id": "raw-githubusercontent-com-mattpocock-skills-4"
+      }
+    ],
+    "links_in": [
+      {
+        "link_type": "cites",
+        "source_id": "interviewing-and-teaching-patterns"
+      }
+    ],
+    "source_count": 1,
+    "evidence_age_days": 0,
+    "links_in_count": 1
+  },
+  {
+    "id": "challenge-just-enough",
+    "path": "claims/challenge-just-enough.md",
+    "sha256": "68761574befe0f9e459fc5e90396254920a8a965f262e802d9b5b5f8a8ca5312",
+    "ontology_sha256": "14348c6006cd3a8e16444da99df32d678c69c85a57204a3e939b53f487cc8c30",
+    "object_type": "claim",
+    "superseded_by": null,
+    "domain": null,
+    "trust_tier": null,
+    "when": null,
+    "description": null,
+    "status": "active",
+    "links_out": [
+      {
+        "link_type": "supported-by",
+        "target_id": "raw-githubusercontent-com-mattpocock-skills-3"
+      }
+    ],
+    "links_in": [
+      {
+        "link_type": "cites",
+        "source_id": "interviewing-and-teaching-patterns"
+      }
+    ],
+    "source_count": 1,
+    "evidence_age_days": 0,
+    "links_in_count": 1
+  },
+  {
+    "id": "confirm-before-changing-mission",
+    "path": "claims/confirm-before-changing-mission.md",
+    "sha256": "62e3419f18257b45062735d6473ce06d3b94b5382fa980ca4998d653008bfbb0",
+    "ontology_sha256": "14348c6006cd3a8e16444da99df32d678c69c85a57204a3e939b53f487cc8c30",
+    "object_type": "claim",
+    "superseded_by": null,
+    "domain": null,
+    "trust_tier": null,
+    "when": null,
+    "description": null,
+    "status": "active",
+    "links_out": [
+      {
+        "link_type": "supported-by",
+        "target_id": "raw-githubusercontent-com-mattpocock-skills-3"
+      }
+    ],
+    "links_in": [
+      {
+        "link_type": "cites",
+        "source_id": "interviewing-and-teaching-patterns"
+      }
+    ],
+    "source_count": 1,
+    "evidence_age_days": 0,
+    "links_in_count": 1
+  },
+  {
+    "id": "coverage-is-not-learning",
+    "path": "claims/coverage-is-not-learning.md",
+    "sha256": "25d2b00e57303dcb0d2fa0821079e6e86927857991d16901d2969607a145b591",
+    "ontology_sha256": "14348c6006cd3a8e16444da99df32d678c69c85a57204a3e939b53f487cc8c30",
+    "object_type": "claim",
+    "superseded_by": null,
+    "domain": null,
+    "trust_tier": null,
+    "when": null,
+    "description": null,
+    "status": "active",
+    "links_out": [
+      {
+        "link_type": "supported-by",
+        "target_id": "raw-githubusercontent-com-mattpocock-skills-5"
+      }
+    ],
+    "links_in": [
+      {
+        "link_type": "cites",
+        "source_id": "interviewing-and-teaching-patterns"
+      }
+    ],
+    "source_count": 1,
+    "evidence_age_days": 0,
+    "links_in_count": 1
+  },
+  {
+    "id": "decisions-belong-to-the-user",
+    "path": "claims/decisions-belong-to-the-user.md",
+    "sha256": "b2a335b37caa8d663249292befe5a3560fcd02643e7f08a249c7c8520ced9b3f",
+    "ontology_sha256": "14348c6006cd3a8e16444da99df32d678c69c85a57204a3e939b53f487cc8c30",
+    "object_type": "claim",
+    "superseded_by": null,
+    "domain": null,
+    "trust_tier": null,
+    "when": null,
+    "description": null,
+    "status": "active",
+    "links_out": [
+      {
+        "link_type": "supported-by",
+        "target_id": "raw-githubusercontent-com-mattpocock-skills"
+      }
+    ],
+    "links_in": [
+      {
+        "link_type": "cites",
+        "source_id": "interviewing-and-teaching-patterns"
+      }
+    ],
+    "source_count": 1,
+    "evidence_age_days": 0,
+    "links_in_count": 1
+  },
+  {
+    "id": "difficulty-is-the-enemy-of-knowledge",
+    "path": "claims/difficulty-is-the-enemy-of-knowledge.md",
+    "sha256": "fb76f8e029e2030785dc392f33fa74263c052794ca5af9648a99573587c21dee",
+    "ontology_sha256": "14348c6006cd3a8e16444da99df32d678c69c85a57204a3e939b53f487cc8c30",
+    "object_type": "claim",
+    "superseded_by": null,
+    "domain": null,
+    "trust_tier": null,
+    "when": null,
+    "description": null,
+    "status": "active",
+    "links_out": [
+      {
+        "link_type": "supported-by",
+        "target_id": "raw-githubusercontent-com-mattpocock-skills-3"
+      }
+    ],
+    "links_in": [
+      {
+        "link_type": "cites",
+        "source_id": "interviewing-and-teaching-patterns"
+      }
+    ],
+    "source_count": 1,
+    "evidence_age_days": 0,
+    "links_in_count": 1
+  },
+  {
+    "id": "difficulty-is-the-tool-for-skill",
+    "path": "claims/difficulty-is-the-tool-for-skill.md",
+    "sha256": "9c1dc7b4d07644eeeeeaf854afe60288d8cf717869b9754745470a67b5dc19d3",
+    "ontology_sha256": "14348c6006cd3a8e16444da99df32d678c69c85a57204a3e939b53f487cc8c30",
+    "object_type": "claim",
+    "superseded_by": null,
+    "domain": null,
+    "trust_tier": null,
+    "when": null,
+    "description": null,
+    "status": "active",
+    "links_out": [
+      {
+        "link_type": "supported-by",
+        "target_id": "raw-githubusercontent-com-mattpocock-skills-3"
+      }
+    ],
+    "links_in": [
+      {
+        "link_type": "cites",
+        "source_id": "interviewing-and-teaching-patterns"
+      }
+    ],
+    "source_count": 1,
+    "evidence_age_days": 0,
+    "links_in_count": 1
+  },
+  {
+    "id": "done-when-frontier-is-empty",
+    "path": "claims/done-when-frontier-is-empty.md",
+    "sha256": "5c8990973a36c62604b15ddedf3b832818102562935e389e2c44b2884991c12c",
+    "ontology_sha256": "14348c6006cd3a8e16444da99df32d678c69c85a57204a3e939b53f487cc8c30",
+    "object_type": "claim",
+    "superseded_by": null,
+    "domain": null,
+    "trust_tier": null,
+    "when": null,
+    "description": null,
+    "status": "active",
+    "links_out": [
+      {
+        "link_type": "supported-by",
+        "target_id": "raw-githubusercontent-com-mattpocock-skills"
+      }
+    ],
+    "links_in": [
+      {
+        "link_type": "cites",
+        "source_id": "interviewing-and-teaching-patterns"
+      }
+    ],
+    "source_count": 1,
+    "evidence_age_days": 0,
+    "links_in_count": 1
+  },
+  {
+    "id": "feedback-loop-as-tight-as-possible",
+    "path": "claims/feedback-loop-as-tight-as-possible.md",
+    "sha256": "b05da1e84452c99741e6bef97e895598a520209182f96ed811f5bda6bbe57184",
+    "ontology_sha256": "14348c6006cd3a8e16444da99df32d678c69c85a57204a3e939b53f487cc8c30",
+    "object_type": "claim",
+    "superseded_by": null,
+    "domain": null,
+    "trust_tier": null,
+    "when": null,
+    "description": null,
+    "status": "active",
+    "links_out": [
+      {
+        "link_type": "supported-by",
+        "target_id": "raw-githubusercontent-com-mattpocock-skills-3"
+      }
+    ],
+    "links_in": [
+      {
+        "link_type": "cites",
+        "source_id": "interviewing-and-teaching-patterns"
+      }
+    ],
+    "source_count": 1,
+    "evidence_age_days": 0,
+    "links_in_count": 1
+  },
+  {
+    "id": "finding-facts-is-the-agents-job",
+    "path": "claims/finding-facts-is-the-agents-job.md",
+    "sha256": "750d45300abcfc5ab92ce61c13186378c2d7b4919fe5079ad8c713de1add4910",
+    "ontology_sha256": "14348c6006cd3a8e16444da99df32d678c69c85a57204a3e939b53f487cc8c30",
+    "object_type": "claim",
+    "superseded_by": null,
+    "domain": null,
+    "trust_tier": null,
+    "when": null,
+    "description": null,
+    "status": "active",
+    "links_out": [
+      {
+        "link_type": "supported-by",
+        "target_id": "raw-githubusercontent-com-mattpocock-skills"
+      }
+    ],
+    "links_in": [
+      {
+        "link_type": "cites",
+        "source_id": "interviewing-and-teaching-patterns"
+      }
+    ],
+    "source_count": 1,
+    "evidence_age_days": 0,
+    "links_in_count": 1
+  },
+  {
+    "id": "fluency-gives-illusory-mastery",
+    "path": "claims/fluency-gives-illusory-mastery.md",
+    "sha256": "0564354d40c63194dbf7cc4146aa088ced5c0d7dd8139718de748242220439b6",
+    "ontology_sha256": "14348c6006cd3a8e16444da99df32d678c69c85a57204a3e939b53f487cc8c30",
+    "object_type": "claim",
+    "superseded_by": null,
+    "domain": null,
+    "trust_tier": null,
+    "when": null,
+    "description": null,
+    "status": "active",
+    "links_out": [
+      {
+        "link_type": "supported-by",
+        "target_id": "raw-githubusercontent-com-mattpocock-skills-3"
+      }
+    ],
+    "links_in": [
+      {
+        "link_type": "cites",
+        "source_id": "interviewing-and-teaching-patterns"
+      }
+    ],
+    "source_count": 1,
+    "evidence_age_days": 0,
+    "links_in_count": 1
+  },
+  {
+    "id": "frontier-is-decisions-with-settled-prerequisites",
+    "path": "claims/frontier-is-decisions-with-settled-prerequisites.md",
+    "sha256": "45599c4873dc409542e13434cd55eb0812a618fa45d7126458d9ed11a7823261",
+    "ontology_sha256": "14348c6006cd3a8e16444da99df32d678c69c85a57204a3e939b53f487cc8c30",
+    "object_type": "claim",
+    "superseded_by": null,
+    "domain": null,
+    "trust_tier": null,
+    "when": null,
+    "description": null,
+    "status": "active",
+    "links_out": [
+      {
+        "link_type": "supported-by",
+        "target_id": "raw-githubusercontent-com-mattpocock-skills"
+      }
+    ],
+    "links_in": [
+      {
+        "link_type": "cites",
+        "source_id": "interviewing-and-teaching-patterns"
+      }
+    ],
+    "source_count": 1,
+    "evidence_age_days": 0,
+    "links_in_count": 1
+  },
+  {
+    "id": "glossary-records-compressed-knowledge",
+    "path": "claims/glossary-records-compressed-knowledge.md",
+    "sha256": "ae7b919df2f1e9f3f668c71c87b7664a9b87e285639a82570bfbae3926f43c11",
+    "ontology_sha256": "14348c6006cd3a8e16444da99df32d678c69c85a57204a3e939b53f487cc8c30",
+    "object_type": "claim",
+    "superseded_by": null,
+    "domain": null,
+    "trust_tier": null,
+    "when": null,
+    "description": null,
+    "status": "active",
+    "links_out": [
+      {
+        "link_type": "supported-by",
+        "target_id": "raw-githubusercontent-com-mattpocock-skills-6"
+      }
+    ],
+    "links_in": [
+      {
+        "link_type": "cites",
+        "source_id": "interviewing-and-teaching-patterns"
+      }
+    ],
+    "source_count": 1,
+    "evidence_age_days": 0,
+    "links_in_count": 1
+  },
+  {
+    "id": "grilling-interviews-until-shared-understanding",
+    "path": "claims/grilling-interviews-until-shared-understanding.md",
+    "sha256": "1f2a077d6a28f51e808689d4b2089c09f4d3b039ff1c9072a34976305ff3eca1",
+    "ontology_sha256": "14348c6006cd3a8e16444da99df32d678c69c85a57204a3e939b53f487cc8c30",
+    "object_type": "claim",
+    "superseded_by": null,
+    "domain": null,
+    "trust_tier": null,
+    "when": null,
+    "description": null,
+    "status": "active",
+    "links_out": [
+      {
+        "link_type": "supported-by",
+        "target_id": "raw-githubusercontent-com-mattpocock-skills"
+      }
+    ],
+    "links_in": [
+      {
+        "link_type": "cites",
+        "source_id": "interviewing-and-teaching-patterns"
+      }
+    ],
+    "source_count": 1,
+    "evidence_age_days": 0,
+    "links_in_count": 1
+  },
+  {
+    "id": "interview-before-writing-a-vague-mission",
+    "path": "claims/interview-before-writing-a-vague-mission.md",
+    "sha256": "b4fa21076fe6710c26674fa369d0a900b3e30378dd41ef96f8737214b55b127b",
+    "ontology_sha256": "14348c6006cd3a8e16444da99df32d678c69c85a57204a3e939b53f487cc8c30",
+    "object_type": "claim",
+    "superseded_by": null,
+    "domain": null,
+    "trust_tier": null,
+    "when": null,
+    "description": null,
+    "status": "active",
+    "links_out": [
+      {
+        "link_type": "supported-by",
+        "target_id": "raw-githubusercontent-com-mattpocock-skills-4"
+      }
+    ],
+    "links_in": [
+      {
+        "link_type": "cites",
+        "source_id": "interviewing-and-teaching-patterns"
+      }
+    ],
+    "source_count": 1,
+    "evidence_age_days": 0,
+    "links_in_count": 1
+  },
+  {
+    "id": "knowledge-from-resources-not-parametric-guesses",
+    "path": "claims/knowledge-from-resources-not-parametric-guesses.md",
+    "sha256": "4cb11103a68a044f6634832f843a3cc63192c193ee3c6fbd3effbedd6800103c",
+    "ontology_sha256": "14348c6006cd3a8e16444da99df32d678c69c85a57204a3e939b53f487cc8c30",
+    "object_type": "claim",
+    "superseded_by": null,
+    "domain": null,
+    "trust_tier": null,
+    "when": null,
+    "description": null,
+    "status": "active",
+    "links_out": [
+      {
+        "link_type": "supported-by",
+        "target_id": "raw-githubusercontent-com-mattpocock-skills-7"
+      }
+    ],
+    "links_in": [
+      {
+        "link_type": "cites",
+        "source_id": "interviewing-and-teaching-patterns"
+      }
+    ],
+    "source_count": 1,
+    "evidence_age_days": 0,
+    "links_in_count": 1
+  },
+  {
+    "id": "lessons-are-short",
+    "path": "claims/lessons-are-short.md",
+    "sha256": "6d28480dc349343cab87ce6025aacaf9f28ec9f5853ff53c572fee2626482cf4",
+    "ontology_sha256": "14348c6006cd3a8e16444da99df32d678c69c85a57204a3e939b53f487cc8c30",
+    "object_type": "claim",
+    "superseded_by": null,
+    "domain": null,
+    "trust_tier": null,
+    "when": null,
+    "description": null,
+    "status": "active",
+    "links_out": [
+      {
+        "link_type": "supported-by",
+        "target_id": "raw-githubusercontent-com-mattpocock-skills-3"
+      }
+    ],
+    "links_in": [
+      {
+        "link_type": "cites",
+        "source_id": "interviewing-and-teaching-patterns"
+      }
+    ],
+    "source_count": 1,
+    "evidence_age_days": 0,
+    "links_in_count": 1
+  },
+  {
+    "id": "most-important-questions-first",
+    "path": "claims/most-important-questions-first.md",
+    "sha256": "ef64cf033a41d3308dba9261ba18818ada47f61662cb4c9d1ff694b88362bcf2",
+    "ontology_sha256": "14348c6006cd3a8e16444da99df32d678c69c85a57204a3e939b53f487cc8c30",
+    "object_type": "claim",
+    "superseded_by": null,
+    "domain": null,
+    "trust_tier": null,
+    "when": null,
+    "description": null,
+    "status": "active",
+    "links_out": [
+      {
+        "link_type": "supported-by",
+        "target_id": "raw-githubusercontent-com-mattpocock-skills-2"
+      }
+    ],
+    "links_in": [
+      {
+        "link_type": "cites",
+        "source_id": "interviewing-and-teaching-patterns"
+      }
+    ],
+    "source_count": 1,
+    "evidence_age_days": 0,
+    "links_in_count": 1
+  },
+  {
+    "id": "no-action-before-user-confirms",
+    "path": "claims/no-action-before-user-confirms.md",
+    "sha256": "a92657f8910da3080a2997a3018394f5c84fc8b5d9bcf7c8dd5070c0e03dc619",
+    "ontology_sha256": "14348c6006cd3a8e16444da99df32d678c69c85a57204a3e939b53f487cc8c30",
+    "object_type": "claim",
+    "superseded_by": null,
+    "domain": null,
+    "trust_tier": null,
+    "when": null,
+    "description": null,
+    "status": "active",
+    "links_out": [
+      {
+        "link_type": "supported-by",
+        "target_id": "raw-githubusercontent-com-mattpocock-skills"
+      }
+    ],
+    "links_in": [
+      {
+        "link_type": "cites",
+        "source_id": "interviewing-and-teaching-patterns"
+      }
+    ],
+    "source_count": 1,
+    "evidence_age_days": 0,
+    "links_in_count": 1
+  },
+  {
+    "id": "no-mission-means-ungrounded-knowledge",
+    "path": "claims/no-mission-means-ungrounded-knowledge.md",
+    "sha256": "3b632c229b5c3176e012313c7e0f5fccdda403b550499a471d394309a224ac53",
+    "ontology_sha256": "14348c6006cd3a8e16444da99df32d678c69c85a57204a3e939b53f487cc8c30",
+    "object_type": "claim",
+    "superseded_by": null,
+    "domain": null,
+    "trust_tier": null,
+    "when": null,
+    "description": null,
+    "status": "active",
+    "links_out": [
+      {
+        "link_type": "supported-by",
+        "target_id": "raw-githubusercontent-com-mattpocock-skills-3"
+      }
+    ],
+    "links_in": [
+      {
+        "link_type": "cites",
+        "source_id": "interviewing-and-teaching-patterns"
+      }
+    ],
+    "source_count": 1,
+    "evidence_age_days": 0,
+    "links_in_count": 1
+  },
+  {
+    "id": "one-idea-per-question",
+    "path": "claims/one-idea-per-question.md",
+    "sha256": "eb739196b0bcf9b5220ddb01b2364af2a521f32f7c051094a6b1de838c19e90d",
+    "ontology_sha256": "14348c6006cd3a8e16444da99df32d678c69c85a57204a3e939b53f487cc8c30",
+    "object_type": "claim",
+    "superseded_by": null,
+    "domain": null,
+    "trust_tier": null,
+    "when": null,
+    "description": null,
+    "status": "active",
+    "links_out": [
+      {
+        "link_type": "supported-by",
+        "target_id": "raw-githubusercontent-com-mattpocock-skills-2"
+      }
+    ],
+    "links_in": [
+      {
+        "link_type": "cites",
+        "source_id": "interviewing-and-teaching-patterns"
+      }
+    ],
+    "source_count": 1,
+    "evidence_age_days": 0,
+    "links_in_count": 1
+  },
+  {
+    "id": "question-the-why-when-mission-is-unclear",
+    "path": "claims/question-the-why-when-mission-is-unclear.md",
+    "sha256": "e07a37c09fc65f29fafb790cf6dedc158f509917ca75e7054a1debc35b178ad7",
+    "ontology_sha256": "14348c6006cd3a8e16444da99df32d678c69c85a57204a3e939b53f487cc8c30",
+    "object_type": "claim",
+    "superseded_by": "user-unclear-on-mission-question-the-why",
+    "domain": null,
+    "trust_tier": null,
+    "when": null,
+    "description": null,
+    "status": "deprecated",
+    "links_out": [
+      {
+        "link_type": "supported-by",
+        "target_id": "raw-githubusercontent-com-mattpocock-skills-3"
+      }
+    ],
+    "links_in": [],
+    "source_count": 1,
+    "evidence_age_days": 0,
+    "links_in_count": 0
+  },
+  {
+    "id": "questionnaire-interviews-only-about-the-send",
+    "path": "claims/questionnaire-interviews-only-about-the-send.md",
+    "sha256": "d712741be023bfce62e8be17d84ccb094c97703c46d4565e5e93f3b00b6285f0",
+    "ontology_sha256": "14348c6006cd3a8e16444da99df32d678c69c85a57204a3e939b53f487cc8c30",
+    "object_type": "claim",
+    "superseded_by": null,
+    "domain": null,
+    "trust_tier": null,
+    "when": null,
+    "description": null,
+    "status": "active",
+    "links_out": [
+      {
+        "link_type": "supported-by",
+        "target_id": "raw-githubusercontent-com-mattpocock-skills-2"
+      }
+    ],
+    "links_in": [
+      {
+        "link_type": "cites",
+        "source_id": "interviewing-and-teaching-patterns"
+      }
+    ],
+    "source_count": 1,
+    "evidence_age_days": 0,
+    "links_in_count": 1
+  },
+  {
+    "id": "record-prior-knowledge-to-avoid-reteaching",
+    "path": "claims/record-prior-knowledge-to-avoid-reteaching.md",
+    "sha256": "930984e669289f732dea42eff884b65a0b987286d9590b00c662bfe3a9caa381",
+    "ontology_sha256": "14348c6006cd3a8e16444da99df32d678c69c85a57204a3e939b53f487cc8c30",
+    "object_type": "claim",
+    "superseded_by": null,
+    "domain": null,
+    "trust_tier": null,
+    "when": null,
+    "description": null,
+    "status": "active",
+    "links_out": [
+      {
+        "link_type": "supported-by",
+        "target_id": "raw-githubusercontent-com-mattpocock-skills-5"
+      }
+    ],
+    "links_in": [
+      {
+        "link_type": "cites",
+        "source_id": "interviewing-and-teaching-patterns"
+      }
+    ],
+    "source_count": 1,
+    "evidence_age_days": 0,
+    "links_in_count": 1
+  },
+  {
+    "id": "teach-is-stateful-across-sessions",
+    "path": "claims/teach-is-stateful-across-sessions.md",
+    "sha256": "7ef927509e66d370f2d0e999bbc2ff890670402143fc5a2b5ed1963f7ec90757",
+    "ontology_sha256": "14348c6006cd3a8e16444da99df32d678c69c85a57204a3e939b53f487cc8c30",
+    "object_type": "claim",
+    "superseded_by": null,
+    "domain": null,
+    "trust_tier": null,
+    "when": null,
+    "description": null,
+    "status": "active",
+    "links_out": [
+      {
+        "link_type": "supported-by",
+        "target_id": "raw-githubusercontent-com-mattpocock-skills-3"
+      }
+    ],
+    "links_in": [
+      {
+        "link_type": "cites",
+        "source_id": "interviewing-and-teaching-patterns"
+      }
+    ],
+    "source_count": 1,
+    "evidence_age_days": 0,
+    "links_in_count": 1
+  },
+  {
+    "id": "teach-uses-directory-as-workspace",
+    "path": "claims/teach-uses-directory-as-workspace.md",
+    "sha256": "4395b52fe0491c1a87ab48ab0a6830b23359c31c891660a8b2eafd89277730e5",
+    "ontology_sha256": "14348c6006cd3a8e16444da99df32d678c69c85a57204a3e939b53f487cc8c30",
+    "object_type": "claim",
+    "superseded_by": null,
+    "domain": null,
+    "trust_tier": null,
+    "when": null,
+    "description": null,
+    "status": "active",
+    "links_out": [
+      {
+        "link_type": "supported-by",
+        "target_id": "raw-githubusercontent-com-mattpocock-skills-3"
+      }
+    ],
+    "links_in": [
+      {
+        "link_type": "cites",
+        "source_id": "interviewing-and-teaching-patterns"
+      }
+    ],
+    "source_count": 1,
+    "evidence_age_days": 0,
+    "links_in_count": 1
+  },
+  {
+    "id": "user-unclear-on-mission-question-the-why",
+    "path": "claims/user-unclear-on-mission-question-the-why.md",
+    "sha256": "526e295284e140dd44f56f044632cca869ca60fb63f08333b79003ca5111059b",
+    "ontology_sha256": "14348c6006cd3a8e16444da99df32d678c69c85a57204a3e939b53f487cc8c30",
+    "object_type": "claim",
+    "superseded_by": null,
+    "domain": null,
+    "trust_tier": null,
+    "when": null,
+    "description": null,
+    "status": "active",
+    "links_out": [
+      {
+        "link_type": "supported-by",
+        "target_id": "raw-githubusercontent-com-mattpocock-skills-3"
+      }
+    ],
+    "links_in": [
+      {
+        "link_type": "cites",
+        "source_id": "interviewing-and-teaching-patterns"
+      }
+    ],
+    "source_count": 1,
+    "evidence_age_days": 0,
+    "links_in_count": 1
+  },
+  {
+    "id": "yes-accepts-the-recommendation",
+    "path": "claims/yes-accepts-the-recommendation.md",
+    "sha256": "68d28d93348e11f6f573ad53afa2dc32af0299db2d5eb28f303be722984d28cf",
+    "ontology_sha256": "14348c6006cd3a8e16444da99df32d678c69c85a57204a3e939b53f487cc8c30",
+    "object_type": "claim",
+    "superseded_by": null,
+    "domain": null,
+    "trust_tier": null,
+    "when": null,
+    "description": null,
+    "status": "active",
+    "links_out": [
+      {
+        "link_type": "supported-by",
+        "target_id": "raw-githubusercontent-com-mattpocock-skills"
+      }
+    ],
+    "links_in": [
+      {
+        "link_type": "cites",
+        "source_id": "interviewing-and-teaching-patterns"
+      }
+    ],
+    "source_count": 1,
+    "evidence_age_days": 0,
+    "links_in_count": 1
+  },
+  {
+    "id": "interviewing-and-teaching-patterns",
+    "path": "interviewing-and-teaching-patterns.md",
+    "sha256": "bcd26936d6f8cd208b62a0679515389188431311a058d90600d1b3eb6f220d49",
+    "ontology_sha256": "14348c6006cd3a8e16444da99df32d678c69c85a57204a3e939b53f487cc8c30",
+    "object_type": "concept",
+    "superseded_by": null,
+    "domain": "agent-skills",
+    "trust_tier": "draft",
+    "when": [
+      "designing how an agent skill interviews a user before acting",
+      "designing how an agent skill grounds and paces teaching"
+    ],
+    "description": "How the grilling, to-questionnaire and teach skills interview a user and ground teaching, as stated in their own instructions.",
+    "status": "experimental",
+    "links_out": [
+      {
+        "link_type": "cites",
+        "target_id": "grilling-interviews-until-shared-understanding"
+      },
+      {
+        "link_type": "cites",
+        "target_id": "frontier-is-decisions-with-settled-prerequisites"
+      },
+      {
+        "link_type": "cites",
+        "target_id": "ask-whole-frontier-with-recommended-answers"
+      },
+      {
+        "link_type": "cites",
+        "target_id": "yes-accepts-the-recommendation"
+      },
+      {
+        "link_type": "cites",
+        "target_id": "finding-facts-is-the-agents-job"
+      },
+      {
+        "link_type": "cites",
+        "target_id": "decisions-belong-to-the-user"
+      },
+      {
+        "link_type": "cites",
+        "target_id": "done-when-frontier-is-empty"
+      },
+      {
+        "link_type": "cites",
+        "target_id": "no-action-before-user-confirms"
+      },
+      {
+        "link_type": "cites",
+        "target_id": "questionnaire-interviews-only-about-the-send"
+      },
+      {
+        "link_type": "cites",
+        "target_id": "one-idea-per-question"
+      },
+      {
+        "link_type": "cites",
+        "target_id": "most-important-questions-first"
+      },
+      {
+        "link_type": "cites",
+        "target_id": "teach-is-stateful-across-sessions"
+      },
+      {
+        "link_type": "cites",
+        "target_id": "interview-before-writing-a-vague-mission"
+      },
+      {
+        "link_type": "cites",
+        "target_id": "confirm-before-changing-mission"
+      },
+      {
+        "link_type": "cites",
+        "target_id": "challenge-just-enough"
+      },
+      {
+        "link_type": "cites",
+        "target_id": "lessons-are-short"
+      },
+      {
+        "link_type": "cites",
+        "target_id": "difficulty-is-the-enemy-of-knowledge"
+      },
+      {
+        "link_type": "cites",
+        "target_id": "difficulty-is-the-tool-for-skill"
+      },
+      {
+        "link_type": "cites",
+        "target_id": "feedback-loop-as-tight-as-possible"
+      },
+      {
+        "link_type": "cites",
+        "target_id": "record-prior-knowledge-to-avoid-reteaching"
+      },
+      {
+        "link_type": "cites",
+        "target_id": "glossary-records-compressed-knowledge"
+      },
+      {
+        "link_type": "cites",
+        "target_id": "knowledge-from-resources-not-parametric-guesses"
+      },
+      {
+        "link_type": "cites",
+        "target_id": "no-mission-means-ungrounded-knowledge"
+      },
+      {
+        "link_type": "cites",
+        "target_id": "bad-mission-worse-than-none"
+      },
+      {
+        "link_type": "cites",
+        "target_id": "fluency-gives-illusory-mastery"
+      },
+      {
+        "link_type": "cites",
+        "target_id": "coverage-is-not-learning"
+      },
+      {
+        "link_type": "cites",
+        "target_id": "user-unclear-on-mission-question-the-why"
+      },
+      {
+        "link_type": "cites",
+        "target_id": "teach-uses-directory-as-workspace"
+      }
+    ],
+    "links_in": [],
+    "source_count": 1,
+    "evidence_age_days": 0,
+    "links_in_count": 0
+  },
+  {
+    "id": "raw-githubusercontent-com-mattpocock-skills-2",
+    "path": "sources/raw-githubusercontent-com-mattpocock-skills-2.md",
+    "sha256": "bb2025f16abad78c68ee9a48e8144106ddfce8d6e45bd1bad8887ff56c0a0210",
+    "ontology_sha256": "14348c6006cd3a8e16444da99df32d678c69c85a57204a3e939b53f487cc8c30",
+    "object_type": "source",
+    "superseded_by": null,
+    "domain": null,
+    "trust_tier": null,
+    "when": null,
+    "description": null,
+    "status": "experimental",
+    "links_out": [],
+    "links_in": [
+      {
+        "link_type": "supported-by",
+        "source_id": "most-important-questions-first"
+      },
+      {
+        "link_type": "supported-by",
+        "source_id": "one-idea-per-question"
+      },
+      {
+        "link_type": "supported-by",
+        "source_id": "questionnaire-interviews-only-about-the-send"
+      }
+    ],
+    "source_count": 1,
+    "evidence_age_days": 0,
+    "links_in_count": 3
+  },
+  {
+    "id": "raw-githubusercontent-com-mattpocock-skills-3",
+    "path": "sources/raw-githubusercontent-com-mattpocock-skills-3.md",
+    "sha256": "fe86402221739e9b3196cd8e8f344b8d6d5d146a887ce6ba5d72e90406dd6763",
+    "ontology_sha256": "14348c6006cd3a8e16444da99df32d678c69c85a57204a3e939b53f487cc8c30",
+    "object_type": "source",
+    "superseded_by": null,
+    "domain": null,
+    "trust_tier": null,
+    "when": null,
+    "description": null,
+    "status": "experimental",
+    "links_out": [],
+    "links_in": [
+      {
+        "link_type": "supported-by",
+        "source_id": "challenge-just-enough"
+      },
+      {
+        "link_type": "supported-by",
+        "source_id": "confirm-before-changing-mission"
+      },
+      {
+        "link_type": "supported-by",
+        "source_id": "difficulty-is-the-enemy-of-knowledge"
+      },
+      {
+        "link_type": "supported-by",
+        "source_id": "difficulty-is-the-tool-for-skill"
+      },
+      {
+        "link_type": "supported-by",
+        "source_id": "feedback-loop-as-tight-as-possible"
+      },
+      {
+        "link_type": "supported-by",
+        "source_id": "fluency-gives-illusory-mastery"
+      },
+      {
+        "link_type": "supported-by",
+        "source_id": "lessons-are-short"
+      },
+      {
+        "link_type": "supported-by",
+        "source_id": "no-mission-means-ungrounded-knowledge"
+      },
+      {
+        "link_type": "supported-by",
+        "source_id": "question-the-why-when-mission-is-unclear"
+      },
+      {
+        "link_type": "supported-by",
+        "source_id": "teach-is-stateful-across-sessions"
+      },
+      {
+        "link_type": "supported-by",
+        "source_id": "teach-uses-directory-as-workspace"
+      },
+      {
+        "link_type": "supported-by",
+        "source_id": "user-unclear-on-mission-question-the-why"
+      }
+    ],
+    "source_count": 1,
+    "evidence_age_days": 0,
+    "links_in_count": 12
+  },
+  {
+    "id": "raw-githubusercontent-com-mattpocock-skills-4",
+    "path": "sources/raw-githubusercontent-com-mattpocock-skills-4.md",
+    "sha256": "bb3610bc83b9fc98b8b02517a8b4a501e9cf1db2e4344040aee3b8c5f506de33",
+    "ontology_sha256": "14348c6006cd3a8e16444da99df32d678c69c85a57204a3e939b53f487cc8c30",
+    "object_type": "source",
+    "superseded_by": null,
+    "domain": null,
+    "trust_tier": null,
+    "when": null,
+    "description": null,
+    "status": "experimental",
+    "links_out": [],
+    "links_in": [
+      {
+        "link_type": "supported-by",
+        "source_id": "bad-mission-worse-than-none"
+      },
+      {
+        "link_type": "supported-by",
+        "source_id": "interview-before-writing-a-vague-mission"
+      }
+    ],
+    "source_count": 1,
+    "evidence_age_days": 0,
+    "links_in_count": 2
+  },
+  {
+    "id": "raw-githubusercontent-com-mattpocock-skills-5",
+    "path": "sources/raw-githubusercontent-com-mattpocock-skills-5.md",
+    "sha256": "a435e3ba43336cab715191f9de58e1fb4bc154927a493fad262b420bb89b2188",
+    "ontology_sha256": "14348c6006cd3a8e16444da99df32d678c69c85a57204a3e939b53f487cc8c30",
+    "object_type": "source",
+    "superseded_by": null,
+    "domain": null,
+    "trust_tier": null,
+    "when": null,
+    "description": null,
+    "status": "experimental",
+    "links_out": [],
+    "links_in": [
+      {
+        "link_type": "supported-by",
+        "source_id": "coverage-is-not-learning"
+      },
+      {
+        "link_type": "supported-by",
+        "source_id": "record-prior-knowledge-to-avoid-reteaching"
+      }
+    ],
+    "source_count": 1,
+    "evidence_age_days": 0,
+    "links_in_count": 2
+  },
+  {
+    "id": "raw-githubusercontent-com-mattpocock-skills-6",
+    "path": "sources/raw-githubusercontent-com-mattpocock-skills-6.md",
+    "sha256": "1ce5e5a7c1eae7f1954d6fc5ad9b5f86cc93f3557105a26a4a322320a49bdf7e",
+    "ontology_sha256": "14348c6006cd3a8e16444da99df32d678c69c85a57204a3e939b53f487cc8c30",
+    "object_type": "source",
+    "superseded_by": null,
+    "domain": null,
+    "trust_tier": null,
+    "when": null,
+    "description": null,
+    "status": "experimental",
+    "links_out": [],
+    "links_in": [
+      {
+        "link_type": "supported-by",
+        "source_id": "glossary-records-compressed-knowledge"
+      }
+    ],
+    "source_count": 1,
+    "evidence_age_days": 0,
+    "links_in_count": 1
+  },
+  {
+    "id": "raw-githubusercontent-com-mattpocock-skills-7",
+    "path": "sources/raw-githubusercontent-com-mattpocock-skills-7.md",
+    "sha256": "bbd2c856a03550608242fcf224326c83e6f683c95971df03b5abc841c60e3ca0",
+    "ontology_sha256": "14348c6006cd3a8e16444da99df32d678c69c85a57204a3e939b53f487cc8c30",
+    "object_type": "source",
+    "superseded_by": null,
+    "domain": null,
+    "trust_tier": null,
+    "when": null,
+    "description": null,
+    "status": "experimental",
+    "links_out": [],
+    "links_in": [
+      {
+        "link_type": "supported-by",
+        "source_id": "knowledge-from-resources-not-parametric-guesses"
+      }
+    ],
+    "source_count": 1,
+    "evidence_age_days": 0,
+    "links_in_count": 1
+  },
+  {
+    "id": "raw-githubusercontent-com-mattpocock-skills",
+    "path": "sources/raw-githubusercontent-com-mattpocock-skills.md",
+    "sha256": "6ddf0a582bf4e4ee3bd2b8f084fa27cdb56b117dee74a795dae5bcf0b1eb878e",
+    "ontology_sha256": "14348c6006cd3a8e16444da99df32d678c69c85a57204a3e939b53f487cc8c30",
+    "object_type": "source",
+    "superseded_by": null,
+    "domain": null,
+    "trust_tier": null,
+    "when": null,
+    "description": null,
+    "status": "experimental",
+    "links_out": [],
+    "links_in": [
+      {
+        "link_type": "supported-by",
+        "source_id": "ask-whole-frontier-with-recommended-answers"
+      },
+      {
+        "link_type": "supported-by",
+        "source_id": "decisions-belong-to-the-user"
+      },
+      {
+        "link_type": "supported-by",
+        "source_id": "done-when-frontier-is-empty"
+      },
+      {
+        "link_type": "supported-by",
+        "source_id": "finding-facts-is-the-agents-job"
+      },
+      {
+        "link_type": "supported-by",
+        "source_id": "frontier-is-decisions-with-settled-prerequisites"
+      },
+      {
+        "link_type": "supported-by",
+        "source_id": "grilling-interviews-until-shared-understanding"
+      },
+      {
+        "link_type": "supported-by",
+        "source_id": "no-action-before-user-confirms"
+      },
+      {
+        "link_type": "supported-by",
+        "source_id": "yes-accepts-the-recommendation"
+      }
+    ],
+    "source_count": 1,
+    "evidence_age_days": 0,
+    "links_in_count": 8
+  }
+]

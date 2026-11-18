@@ -6,6 +6,19 @@ UX/UI background can provide a bridge: user action → component/state → reque
 or logic → response → interface feedback. Use only the portion needed; do not
 repeat the same flow in several formats or teach an entire stack by default.
 
+## Re-explain a message that did not land (wait-what)
+
+When the user says they did not understand, return to the specific message or
+concept that lost them. Briefly restore the missing context, explain it in their
+language with one concrete example, and connect it to the current decision.
+Use established project terms; consult a relevant glossary if available, but
+work without one. Clarify only if the referent is genuinely ambiguous. Reframe
+the explanation rather than repeating its jargon or expanding into a lesson.
+Finish when the requested point is explained; a quiz or interview is optional,
+not a condition for continuing the user's work.
+
+## Adapt to the learner
+
 Explain unfamiliar terminology accurately. For example, state is information
 that determines behavior or presentation at a moment; a button's color can be a
 rendered consequence, not the whole state. When the user's explanation is

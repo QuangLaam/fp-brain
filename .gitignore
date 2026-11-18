@@ -1,2 +1,7 @@
 # macOS Finder metadata
 .DS_Store
+.claude/settings.local.json
+
+# Knowledge pack lock files (runtime only)
+knowledge/**/.lock
+knowledge/**/*.lock
