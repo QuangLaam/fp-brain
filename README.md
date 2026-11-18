@@ -47,6 +47,8 @@ in this folder to verify that Codex loads the updated guidance.
 2. Local first-principles notes: 42 foundational research notes recoverable through Git history at commit `c561a5c`; not all have been incorporated into FP.
 3. [Matt Pocock Productivity](https://github.com/mattpocock/skills/tree/5beb35b040e3de97e54fa9e386d7e42d15c295c2/skills/productivity): `grilling`, `wait-what`, `to-questionnaire`, and `handoff`, reviewed on 2026-10-22 and adapted for FP's advisory/read-only scope. Grilling supplies the decision-tree/frontier mechanism, bounded to useful problem definition; upstream delegation, file-writing and skill dependencies are not imported. Future upstream changes need review rather than automatic synchronization.
 
+The evidence pack at `knowledge/pocock-productivity-skills/` does not mirror origin 3. It captured `grilling`, `to-questionnaire` and `teach` at a later upstream commit, [`5863806`](https://github.com/mattpocock/skills/tree/5863806dd4e15c63174bee4e7515a4256792ecfa/skills/productivity), on 2026-11-18. Upstream changes between the two commits have not been reviewed against FP. The pack has no source for `wait-what` or `handoff`, so those two adaptations cannot be checked against it. `teach` is in the pack as reference material; it is not listed above as an adapted source.
+
 Historical plans and evaluation reports are preserved in Git history at commits `76b4df2` and `fe07378`.
 
 
